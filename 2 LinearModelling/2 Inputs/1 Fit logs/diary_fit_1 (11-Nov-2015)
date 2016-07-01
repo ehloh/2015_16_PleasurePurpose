@@ -1,0 +1,6206 @@
+=======================================================
+START Timestamp: 11-Nov-2015 12:59 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [12:59] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [13:0] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - b03_ac       [13:0] ##############
+Subject 1  (p01)
+Failed: p01  -  b03_ac    iteration 1
+Failed: p01  -  b03_ac    iteration 2
+Failed: p01  -  b03_ac    iteration 3
+Failed: p01  -  b03_ac    iteration 4
+Failed: p01  -  b03_ac    iteration 5
+Failed: p01  -  b03_ac    iteration 6
+Failed: p01  -  b03_ac    iteration 7
+Failed: p01  -  b03_ac    iteration 8
+Failed: p01  -  b03_ac    iteration 9
+Failed: p01  -  b03_ac    iteration 10
+Failed: p01  -  b03_ac    iteration 11
+Failed: p01  -  b03_ac    iteration 12
+Failed: p01  -  b03_ac    iteration 13
+Failed: p01  -  b03_ac    iteration 14
+Failed: p01  -  b03_ac    iteration 15
+Failed: p01  -  b03_ac    iteration 16
+Failed: p01  -  b03_ac    iteration 17
+Failed: p01  -  b03_ac    iteration 18
+Failed: p01  -  b03_ac    iteration 19
+Failed: p01  -  b03_ac    iteration 20
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 196)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',196,0)">line 196</a>)
+        r_res{m,2}(s,2)=ws.bestiter(2);} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 13:2 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [13:3] ##############
+Subject 1  (p01)
+aw= 10./(1+exp(-x(:,2)));
+aw
+
+aw =
+
+    0.5215
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+b   - Transform error: 2.0019e-15
+p   - Transform error: 6.9606e-17
+l   - Transform error: 0
+a   - Transform error: 8.8818e-16
+=======================================================
+START Timestamp: 11-Nov-2015 13:42 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      {Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 84)" style="font-weight:bold">a1a_fitmod</a>
+(<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',84,0)">line 84</a>)
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+b   - Transform error: 2.0019e-15
+p   - Transform error: 6.9606e-17
+l   - Transform error: 0
+a   - Transform error: 8.8818e-16
+=======================================================
+START Timestamp: 11-Nov-2015 13:42 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [13:42] ##############
+Subject 1  (p01)
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+b   - Transform error: 2.0019e-15
+p   - Transform error: 6.9606e-17
+l   - Transform error: 0
+a   - Transform error: 8.8818e-16
+=======================================================
+START Timestamp: 11-Nov-2015 13:44 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [13:44] ##############
+Subject 1  (p01)
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('b03_ac', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b03_ac.m', 17)" style="font-weight:bold">b03_ac</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b03_ac.m',17,0)">line 17</a>)
+plcf = shiftdim(data(:, col.PLcf,1),1);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('f_nllsoftmax', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m', 32)" style="font-weight:bold">f_nllsoftmax</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m',32,0)">line 32</a>)
+eval(['V=' ValueFxn '(x, {[] data,
+fPar,col});'])
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)', '', 0)" style="font-weight:bold">@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)</a>
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 250)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',250,0)">line 250</a>)
+        f = feval(funfcn{3},x,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 157)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',157,0)">line 157</a>)
+                    [wi.par, wi.L, wi.exit,
+                    wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1}
+                    ws.data details.fixedpar
+                    col},0,0), wi.startpar,
+                    w.options);
+
+Caused by:
+    Failure in initial user-supplied objective
+    function evaluation. FMINUNC cannot
+    continue.
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+b   - Transform error: 2.0019e-15
+p   - Transform error: 6.9606e-17
+l   - Transform error: 0
+a   - Transform error: 8.8818e-16
+=======================================================
+START Timestamp: 11-Nov-2015 13:44 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [13:45] ##############
+Subject 1  (p01)
+plcf = shiftdim(data(:, col.PLcf,1),1);
+{Index exceeds matrix dimensions.
+} 
+data
+
+data =
+
+  Columns 1 through 3
+
+           1          33           3
+           2          19          37
+           3          48          47
+           4          79          27
+           5          14          63
+           6          25          44
+           7          74          13
+           8          32          75
+           9          70          54
+          10          46          14
+          11          73          34
+          12          50          78
+          13          79           9
+          14          63           5
+          15           9          33
+          16          19           2
+          17          20           5
+          18          62          61
+          19          41          26
+          20          71          22
+          21           8           1
+          22          49          71
+          23          69          59
+          24          64          16
+          25          46          37
+          26          38           6
+          27          72          38
+          28           2          24
+          29          57          10
+          30          11          30
+          31          35          60
+          32          64          10
+          33          67          18
+          34          66          27
+          35          51           7
+          36          45           8
+          37          29          55
+          38          49          18
+          39          29          57
+          40          66           1
+          41          40          53
+          42          32          72
+          43          42          78
+          44          80          55
+          45          58          53
+          46          35          15
+          47          43          51
+          48          58          36
+          49          20          59
+          50          34          76
+          51          36          21
+          52          74          61
+          53          50          75
+          54          52          67
+          55          68          45
+          56          80          17
+          57          77          70
+          58          65          56
+          59          52          11
+          60          28          60
+          61          23          77
+          62          12           3
+          63          43          13
+          64          76           6
+          65          41           7
+          66          24          39
+          67          56          47
+          68          39          40
+          69          69          17
+          70          65          21
+          71           4          16
+          72          22          12
+          73          30          42
+          74          28           4
+          75          44          48
+          76          23          31
+          77          62          54
+          78          31          26
+          79          15          73
+          80          25          68
+
+  Columns 4 through 6
+
+         NaN         397           0
+         NaN         250           0
+         NaN         396           0
+         NaN         283           0
+         NaN         351           0
+         NaN         254           0
+         NaN         286           0
+         NaN         802           0
+         NaN         304           0
+         NaN         247           0
+         NaN         294           0
+         NaN         275           0
+         NaN         294           0
+         NaN         243           0
+         NaN        1470           0
+         NaN         259           0
+         NaN         911           0
+         NaN        1649           0
+         NaN         275           0
+         NaN         437           0
+         NaN        1938           0
+         NaN         271           0
+         NaN         283           0
+         NaN         299           0
+         NaN         347           0
+         NaN         276           0
+         NaN         249           0
+         NaN         241           0
+         NaN         332           0
+         NaN         268           0
+         NaN         775           0
+         NaN         377           0
+         NaN         394           0
+         NaN         312           0
+         NaN         358           0
+         NaN         350           0
+         NaN         285           0
+         NaN         577           0
+         NaN         493           0
+         NaN         372           0
+         NaN        1238           0
+         NaN         310           0
+         NaN         257           0
+         NaN         449           0
+         NaN         461           0
+         NaN         475           0
+         NaN         375           0
+         NaN         580           0
+         NaN         906           0
+         NaN         667           0
+         NaN         546           0
+         NaN         656           0
+         NaN         556           0
+         NaN         792           0
+         NaN        4000           0
+         NaN         392           0
+         NaN        2710           0
+         NaN         393           0
+         NaN         349           0
+         NaN         501           0
+         NaN        3018           0
+         NaN         324           0
+         NaN         302           0
+         NaN         293           0
+         NaN        2019           0
+         NaN         606           0
+         NaN         571           0
+         NaN         241           0
+         NaN        2167           0
+         NaN        1452           0
+         NaN        1129           0
+         NaN         271           0
+         NaN        1451           0
+         NaN         341           0
+         NaN        1943           0
+         NaN        1559           0
+         NaN         500           0
+         NaN        1056           0
+         NaN          23           0
+         NaN         780           0
+
+  Columns 7 through 9
+
+           0           2           6
+           0           2           7
+           0           1          10
+           0           2           6
+           0           1           4
+           0           1          10
+           0           1           6
+           0           2          10
+           0           2           8
+           0           1          10
+           0           2           8
+           0           1           7
+           0           2           6
+           0           2           8
+           0           2           7
+           0           2           7
+           0           2          10
+           0           2          10
+           0           2           7
+           0           1          10
+           0           2           3
+           0           2           5
+           0           2           7
+           0           1           7
+           0           1          10
+           0           2           1
+           0           1           4
+           0           1           9
+           0           2           1
+           0           2           6
+           0           1           6
+           0           1           7
+           0           1          10
+           0           1           8
+           0           1           4
+           0           1          10
+           0           1          10
+           0           1           5
+           0           1          10
+           0           1           8
+           0           2          10
+           0           1          10
+           0           1           8
+           0           1          10
+           0           2          10
+           0           1           6
+           0           1           8
+           0           1          10
+           0           2          10
+           0           2           4
+           0           2           4
+           0           2           6
+           0           2           7
+           0           2           9
+           0           0           9
+           0           1          10
+           0           2           9
+           0           1           8
+           0           1           9
+           0           1           5
+           0           2           5
+           0           2           7
+           0           1           8
+           0           1          10
+           0           1           7
+           0           1           1
+           0           1           5
+           0           2           4
+           0           1           7
+           0           1           8
+           0           1           9
+           0           1          10
+           0           1           9
+           0           2           5
+           0           1           7
+           0           1           5
+           0           2          10
+           0           2           3
+           0           2           3
+           0           2          10
+
+  Columns 10 through 12
+
+           9           6           5
+           7           8           6
+           4          10           7
+          10           6          10
+           8          10           8
+           7           8           6
+           4           8           9
+          10           6           6
+          10           9          10
+           4           5          10
+           4           4           1
+           5           7           8
+           7           6           5
+          10           8          10
+           6           5           6
+           9           8           4
+          10           7          10
+          10          10           6
+          10           7          10
+          10          10           6
+           6           4           3
+          10           6          10
+           5           8          10
+           2           8           5
+           7           5           6
+           9           8           8
+           1           4           8
+           1           4           5
+           8           4           9
+           9           8           9
+           4           4           1
+           8           8           9
+           3           7           9
+          10          10          10
+           7           9           4
+           3           6           4
+           7          10           4
+           3           6           9
+           1          10           4
+           6          10           3
+          10          10          10
+           4           6           4
+           5          10           8
+           7          10           4
+          10          10          10
+           3           4           6
+           4           4           9
+           4          10           3
+           5           7          10
+          10           1          10
+           6           3           7
+          10           8           6
+          10           7           6
+          10           6           7
+          10           9           6
+           3          10           1
+           8           5           9
+           5          10           6
+           6           6           8
+           4           8           1
+           9           6           5
+           9           8           5
+           4           4           9
+           9          10           8
+           7           7           4
+           4           5           1
+           4           6           7
+          10           1          10
+           3           8           1
+           6          10           7
+           2           4           5
+           7           6           8
+           8           9          10
+           9           8           4
+          10           6          10
+           3           6           7
+          10          10          10
+          10           7          10
+           8           6           4
+           9           8           9
+
+  Columns 13 through 15
+
+           1         NaN          12
+           1         NaN          15
+           1         NaN          20
+           1         NaN          12
+           1         NaN          14
+           1         NaN          18
+           1         NaN          14
+           1         NaN          16
+           1         NaN          17
+           1         NaN          15
+           1         NaN          12
+           1         NaN          14
+           1         NaN          12
+           1         NaN          16
+           1         NaN          12
+           1         NaN          15
+           1         NaN          17
+           1         NaN          20
+           1         NaN          14
+           1         NaN          20
+           1         NaN           7
+           1         NaN          11
+           1         NaN          15
+           1         NaN          15
+           1         NaN          15
+           1         NaN           9
+           1         NaN           8
+           1         NaN          13
+           1         NaN           5
+           1         NaN          14
+           1         NaN          10
+           1         NaN          15
+           1         NaN          17
+           1         NaN          18
+           1         NaN          13
+           1         NaN          16
+           1         NaN          20
+           1         NaN          11
+           1         NaN          20
+           1         NaN          18
+           1         NaN          20
+           1         NaN          16
+           1         NaN          18
+           1         NaN          20
+           1         NaN          20
+           1         NaN          10
+           1         NaN          12
+           1         NaN          20
+           1         NaN          17
+           1         NaN           5
+           1         NaN           7
+           1         NaN          14
+           1         NaN          14
+           1         NaN          15
+           1         NaN          18
+           1         NaN          20
+           1         NaN          14
+           1         NaN          18
+           1         NaN          15
+           1         NaN          13
+           1         NaN          11
+           1         NaN          15
+           1         NaN          12
+           1         NaN          20
+           1         NaN          14
+           1         NaN           6
+           1         NaN          11
+           1         NaN           5
+           1         NaN          15
+           1         NaN          18
+           1         NaN          13
+           1         NaN          16
+           1         NaN          18
+           1         NaN          13
+           1         NaN          13
+           1         NaN          11
+           1         NaN          20
+           1         NaN          10
+           1         NaN           9
+           1         NaN          18
+
+  Columns 16 through 18
+
+          14          -3           1
+          13           0           2
+          11           6           3
+          20          -4          -4
+          16          -4           2
+          13           3           2
+          13           2          -1
+          16           0           0
+          20          -2          -1
+          14           6          -5
+           5           4           3
+          13           2          -1
+          12          -1           1
+          20          -2          -2
+          12           1          -1
+          13          -2           4
+          20           0          -3
+          16           0           4
+          20          -3          -3
+          16           0           4
+           9          -3           1
+          20          -5          -4
+          15           2          -2
+           7           5           3
+          13           3          -1
+          17          -8           0
+           9           3          -4
+           6           8          -1
+          17          -7          -5
+          18          -3          -1
+           5           2           3
+          17          -1          -1
+          12           7          -2
+          20          -2           0
+          11          -3           5
+           7           7           2
+          11           3           6
+          12           2          -3
+           5           9           6
+           9           2           7
+          20           0           0
+           8           6           2
+          13           3           2
+          11           3           6
+          20           0           0
+           9           3          -2
+          13           4          -5
+           7           6           7
+          15           5          -3
+          20          -6          -9
+          13          -2          -4
+          16          -4           2
+          16          -3           1
+          17          -1          -1
+          16          -1           3
+           4           7           9
+          17           1          -4
+          11           3           4
+          14           3          -2
+           5           1           7
+          14          -4           1
+          14          -2           3
+          13           4          -5
+          17           1           2
+          11           0           3
+           5          -3           4
+          11           1          -1
+          20          -6          -9
+           4           4           7
+          13           2           3
+           7           7          -1
+          15           3          -2
+          18           1          -1
+          13          -4           4
+          20          -3          -4
+          10           2          -1
+          20           0           0
+          20          -7          -3
+          12          -5           2
+          18           1          -1
+
+  Columns 19 through 21
+
+          -2           3           1
+           2           0           2
+           9           6           3
+          -8           4           4
+          -2           4           2
+           5           3           2
+           1           2           1
+           0           0           0
+          -3           2           1
+           1           6           5
+           7           4           3
+           1           2           1
+           0           1           1
+          -4           2           2
+           0           1           1
+           2           2           4
+          -3           0           3
+           4           0           4
+          -6           3           3
+           4           0           4
+          -2           3           1
+          -9           5           4
+           0           2           2
+           8           5           3
+           2           3           1
+          -8           8           0
+          -1           3           4
+           7           8           1
+         -12           7           5
+          -4           3           1
+           5           2           3
+          -2           1           1
+           5           7           2
+          -2           2           0
+           2           3           5
+           9           7           2
+           9           3           6
+          -1           2           3
+          15           9           6
+           9           2           7
+           0           0           0
+           8           6           2
+           5           3           2
+           9           3           6
+           0           0           0
+           1           3           2
+          -1           4           5
+          13           6           7
+           2           5           3
+         -15           6           9
+          -6           2           4
+          -2           4           2
+          -2           3           1
+          -2           1           1
+           2           1           3
+          16           7           9
+          -3           1           4
+           7           3           4
+           1           3           2
+           8           1           7
+          -3           4           1
+           1           2           3
+          -1           4           5
+           3           1           2
+           3           0           3
+           1           3           4
+           0           1           1
+         -15           6           9
+          11           4           7
+           5           2           3
+           6           7           1
+           1           3           2
+           0           1           1
+           0           4           4
+          -7           3           4
+           1           2           1
+           0           0           0
+         -10           7           3
+          -3           5           2
+           0           1           1
+
+  Columns 22 through 24
+
+           2           0           0
+           2           0           0
+           9           0           0
+           8           0           0
+           2           0           0
+           5           0           0
+           1           0           0
+           0           0           0
+           3           0           0
+           1           0           0
+           7           0           0
+           1           0           0
+           0           0           0
+           4           0           0
+           0           0           0
+           2           0           0
+           3           0           0
+           4           0           0
+           6           0           0
+           4           0           0
+           2           0           0
+           9           0           0
+           0           0           0
+           8           0           0
+           2           0           0
+           8           0           0
+           1           0           0
+           7           0           0
+          12           0           0
+           4           0           0
+           5           0           0
+           2           0           0
+           5           0           0
+           2           0           0
+           2           0           0
+           9           0           0
+           9           0           0
+           1           0           0
+          15           0           0
+           9           0           0
+           0           0           0
+           8           0           0
+           5           0           0
+           9           0           0
+           0           0           0
+           1           0           0
+           1           0           0
+          13           0           0
+           2           0           0
+          15           0           0
+           6           0           0
+           2           0           0
+           2           0           0
+           2           0           0
+           2           0           0
+          16           0           0
+           3           0           0
+           7           0           0
+           1           0           0
+           8           0           0
+           3           0           0
+           1           0           0
+           1           0           0
+           3           0           0
+           3           0           0
+           1           0           0
+           0           0           0
+          15           0           0
+          11           0           0
+           5           0           0
+           6           0           0
+           1           0           0
+           0           0           0
+           0           0           0
+           7           0           0
+           1           0           0
+           0           0           0
+          10           0           0
+           3           0           0
+           0           0           0
+
+  Columns 25 through 27
+
+           9           5          14
+           7           6          13
+          10          10          20
+          10          10          20
+           4          10          14
+          10           8          18
+           6           8          14
+          10           6          16
+          10          10          20
+          10           5          15
+           4           1           5
+           7           7          14
+           7           5          12
+          10          10          20
+           6           6          12
+           9           4          13
+          10          10          20
+          10           6          16
+          10          10          20
+          10          10          20
+           6           3           9
+          10          10          20
+           5          10          15
+           7           8          15
+          10           5          15
+           9           8          17
+           4           4           8
+           9           4          13
+           8           9          17
+           9           9          18
+           6           4          10
+           7           8          15
+          10           7          17
+           8          10          18
+           4           9          13
+          10           6          16
+          10          10          20
+           5           6          11
+          10          10          20
+           8          10          18
+          10          10          20
+          10           6          16
+           8          10          18
+          10          10          20
+          10          10          20
+           6           4          10
+           8           4          12
+          10          10          20
+           5          10          15
+          10          10          20
+           6           7          13
+          10           6          16
+          10           6          16
+          10           7          17
+           0           0           0
+          10          10          20
+           8           9          17
+           8          10          18
+           9           6          15
+           5           8          13
+           9           5          14
+           9           5          14
+           8           4          12
+          10          10          20
+           7           7          14
+           1           5           6
+           5           6          11
+          10          10          20
+           7           8          15
+           8          10          18
+           9           4          13
+          10           6          16
+           9           9          18
+           9           4          13
+           7           6          13
+           5           6          11
+          10          10          20
+          10          10          20
+           8           4          12
+           9           9          18
+
+  Columns 28 through 30
+
+           6           6          12
+           7           8          15
+           4           7          11
+           6           6          12
+           8           8          16
+           7           6          13
+           4           9          13
+          10           6          16
+           8           9          17
+           4          10          14
+           8           4          12
+           5           8          13
+           6           6          12
+           8           8          16
+           7           5          12
+           7           8          15
+          10           7          17
+          10          10          20
+           7           7          14
+          10           6          16
+           3           4           7
+           5           6          11
+           7           8          15
+           2           5           7
+           7           6          13
+           1           8           9
+           1           8           9
+           1           5           6
+           1           4           5
+           6           8          14
+           4           1           5
+           8           9          17
+           3           9          12
+          10          10          20
+           7           4          11
+           3           4           7
+           7           4          11
+           3           9          12
+           1           4           5
+           6           3           9
+          10          10          20
+           4           4           8
+           5           8          13
+           7           4          11
+          10          10          20
+           3           6           9
+           4           9          13
+           4           3           7
+          10           7          17
+           4           1           5
+           4           3           7
+           6           8          14
+           7           7          14
+           9           6          15
+           0           0           0
+           3           1           4
+           9           5          14
+           5           6          11
+           6           8          14
+           4           1           5
+           5           6          11
+           7           8          15
+           4           9          13
+           9           8          17
+           7           4          11
+           4           1           5
+           4           7          11
+           4           1           5
+           3           1           4
+           6           7          13
+           2           5           7
+           7           8          15
+           8          10          18
+           5           8          13
+          10          10          20
+           3           7          10
+          10          10          20
+           3           7          10
+           3           6           9
+          10           8          18
+
+  Columns 31 through 33
+
+           1          -1           1
+         NaN          -1          -1
+           1           1           1
+           1           1           1
+          -1           1          -1
+           1           1           1
+           1          -1           1
+         NaN         NaN         NaN
+           1           1           1
+           1          -1           1
+          -1          -1          -1
+           1          -1           1
+           1          -1         NaN
+           1           1           1
+          -1           1         NaN
+           1          -1          -1
+         NaN           1           1
+         NaN          -1          -1
+           1           1           1
+         NaN           1           1
+           1          -1           1
+           1           1           1
+          -1           1         NaN
+           1           1           1
+           1          -1           1
+           1         NaN           1
+           1          -1          -1
+           1          -1           1
+           1           1           1
+           1           1           1
+           1           1           1
+          -1          -1          -1
+           1          -1           1
+          -1         NaN          -1
+          -1           1           1
+           1           1           1
+           1           1           1
+           1          -1          -1
+           1           1           1
+           1           1           1
+         NaN         NaN         NaN
+           1           1           1
+           1           1           1
+           1           1           1
+         NaN         NaN         NaN
+           1          -1           1
+           1          -1          -1
+           1           1           1
+          -1           1          -1
+           1           1           1
+           1           1           1
+           1          -1           1
+           1          -1           1
+           1           1           1
+         NaN         NaN         NaN
+           1           1           1
+          -1           1           1
+           1           1           1
+           1          -1           1
+           1           1           1
+           1          -1           1
+           1          -1          -1
+           1          -1          -1
+           1           1           1
+         NaN           1           1
+          -1           1           1
+           1          -1         NaN
+           1           1           1
+           1           1           1
+           1           1           1
+           1          -1           1
+           1          -1           1
+           1          -1         NaN
+           1          -1         NaN
+          -1          -1          -1
+           1          -1           1
+         NaN         NaN         NaN
+           1           1           1
+           1          -1           1
+          -1           1         NaN
+
+  Columns 34 through 36
+
+           1           1           2
+           0           1           0
+           0           1           1
+           0           2           2
+           1           1           2
+           0           1           1
+           1           2           1
+           0           0           0
+           0           2           2
+           1           2           1
+           0           1           1
+           1           2           1
+           1           1           2
+           0           2           2
+           1           2           1
+           1           1           2
+           0           2           0
+           0           1           0
+           0           2           2
+           0           1           0
+           1           1           2
+           0           2           2
+           1           2           1
+           0           1           1
+           1           2           1
+           0           0           2
+           1           2           1
+           1           2           1
+           0           2           2
+           0           2           2
+           0           1           1
+           0           2           2
+           1           2           1
+           0           0           2
+           1           1           2
+           0           1           1
+           0           1           1
+           1           2           1
+           0           1           1
+           0           1           1
+           0           0           0
+           0           1           1
+           0           1           1
+           0           1           1
+           0           0           0
+           1           2           1
+           1           2           1
+           0           1           1
+           1           2           1
+           0           2           2
+           0           2           2
+           1           1           2
+           1           1           2
+           0           2           2
+           1           1           2
+           0           1           1
+           1           2           1
+           0           1           1
+           1           2           1
+           0           1           1
+           1           1           2
+           1           1           2
+           1           2           1
+           0           1           1
+           0           1           0
+           1           1           2
+           1           2           1
+           0           2           2
+           0           1           1
+           0           1           1
+           1           2           1
+           1           2           1
+           1           2           1
+           1           1           2
+           0           2           2
+           1           2           1
+           0           0           0
+           0           2           2
+           1           1           2
+           1           2           1
+
+  Column 37
+
+           2
+           1
+           1
+           2
+           2
+           1
+           1
+           0
+           2
+           1
+           1
+           1
+           0
+           2
+           0
+           1
+           2
+           1
+           2
+           1
+           2
+           2
+           0
+           1
+           1
+           2
+           2
+           1
+           2
+           2
+           1
+           2
+           1
+           2
+           1
+           1
+           1
+           2
+           1
+           1
+           0
+           1
+           1
+           1
+           0
+           1
+           2
+           1
+           1
+           2
+           2
+           2
+           2
+           2
+           1
+           1
+           2
+           1
+           1
+           1
+           2
+           1
+           2
+           1
+           1
+           1
+           0
+           2
+           1
+           1
+           1
+           1
+           0
+           0
+           2
+           1
+           0
+           2
+           2
+           0
+
+col.PLcf
+
+ans =
+
+    38
+
+data(:, col.PLcf,1)
+{Index exceeds matrix dimensions.
+} 
+openvar data
+a0_prep4modelling
+=======================================================
+START Timestamp: 11-Nov-2015 13:45 hrs
+ 
+No. of subjects: 20
+ 
+ 
+Hit Enter to start      
+=======================================================
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+b   - Transform error: 2.0019e-15
+p   - Transform error: 6.9606e-17
+l   - Transform error: 0
+a   - Transform error: 8.8818e-16
+=======================================================
+START Timestamp: 11-Nov-2015 13:46 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [13:46] ##############
+Subject 1  (p01)
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('b03_ac', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b03_ac.m', 17)" style="font-weight:bold">b03_ac</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b03_ac.m',17,0)">line 17</a>)
+plcf = shiftdim(data(:, col.PLcf,1),1);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('f_nllsoftmax', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m', 32)" style="font-weight:bold">f_nllsoftmax</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m',32,0)">line 32</a>)
+eval(['V=' ValueFxn '(x, {[] data,
+fPar,col});'])
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)', '', 0)" style="font-weight:bold">@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)</a>
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 250)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',250,0)">line 250</a>)
+        f = feval(funfcn{3},x,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 157)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',157,0)">line 157</a>)
+                    [wi.par, wi.L, wi.exit,
+                    wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1}
+                    ws.data details.fixedpar
+                    col},0,0), wi.startpar,
+                    w.options);
+
+Caused by:
+    Failure in initial user-supplied objective
+    function evaluation. FMINUNC cannot
+    continue.
+} 
+a0_prep4modelling
+=======================================================
+START Timestamp: 11-Nov-2015 14:22 hrs
+ 
+No. of subjects: 20
+ 
+ 
+Hit Enter to start      
+=======================================================
+a0_prep4modelling
+=======================================================
+START Timestamp: 11-Nov-2015 14:22 hrs
+ 
+No. of subjects: 20
+ 
+ 
+Hit Enter to start      
+=======================================================
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 14:22 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [14:22] ##############
+Subject 1  (p01)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot
+continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 157)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',157,0)">line 157</a>)
+                    [wi.par, wi.L, wi.exit, wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1} ws.data details.fixedpar
+                    col},0,0), wi.startpar, w.options);
+} 
+wi.startpar
+
+ans =
+
+   -0.5000    2.1000
+
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot
+continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+} 
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+plcf = shiftdim(data(:, col.PLcf,1),1);  
+ppcf = shiftdim(data(:, col.PPcf,1),1);
+plcf
+
+plcf =
+
+  Columns 1 through 11
+
+    16    19    13    15    15    16    17    19    17    13    15
+
+  Columns 12 through 22
+
+    17    18    17    18    17    19    19    16    19    16    14
+
+  Columns 23 through 33
+
+    17    14    16    11    16    11    12    16    17    18    12
+
+  Columns 34 through 44
+
+    17    16    12    16    17    10    17    19    13    16    16
+
+  Columns 45 through 55
+
+    19    16    15    13    14    13    17    15    16    18    18
+
+  Columns 56 through 66
+
+    12    18    16    16    18    15    17    15    18    19    16
+
+  Columns 67 through 77
+
+    18    13    15    17    12    16    18    15    16    17    19
+
+  Columns 78 through 80
+
+    12    14    18
+
+plweight = repmat(aw, 1, nTrials).*repmat(plcf./ppcf, nPP,1);
+plweight
+
+plweight =
+
+  Columns 1 through 6
+
+    7.9191    9.9572    7.2386    8.9090    7.8609    8.3850
+
+  Columns 7 through 12
+
+    8.4141    8.9090    8.4141    8.2727    8.3522    8.4141
+
+  Columns 13 through 18
+
+    8.9090    8.9090    8.9090   10.0969   10.5795   11.2848
+
+  Columns 19 through 24
+
+    8.9090   11.2848    7.9191    8.3151    8.9090    7.7954
+
+  Columns 25 through 30
+
+    7.9191    5.1579    9.5030    5.4444    7.6363    7.9191
+
+  Columns 31 through 36
+
+    9.4658    8.9090    6.2887    7.9712   10.1818    6.2887
+
+  Columns 37 through 42
+
+   10.9650    9.4658    6.8531   12.6211    8.9090    6.8128
+
+  Columns 43 through 48
+
+    8.3850   10.9650    8.9090    8.3850    9.5454    9.6515
+
+  Columns 49 through 54
+
+    7.7954   11.5817   10.0969    7.8609    7.9191    8.9090
+
+  Columns 55 through 60
+
+   10.0227   10.6908   10.6908    9.5030    8.3850   13.3635
+
+  Columns 61 through 66
+
+    7.4242    9.4658    9.5454    9.4331   10.5795    9.5030
+
+  Columns 67 through 72
+
+    8.9090   11.5817   11.1363    9.4658    5.9394    8.3850
+
+  Columns 73 through 78
+
+    8.9090    8.9090    9.5030    8.4141    8.9090    6.6818
+
+  Columns 79 through 80
+
+    7.3368    8.9090
+
+pl1= repmat(pl1, nPP,1).*plweight; 
+pl2= repmat(pl2, nPP,1).*plweight;
+V(:,:,1) = pl1+pp1; 
+V(:,:,2) = pl2+pp2;
+V
+
+V(:,:,1) =
+
+  Columns 1 through 6
+
+   53.5148   77.7001   82.3859   59.4542   41.4436   91.8497
+
+  Columns 7 through 12
+
+   58.4845   95.0903   76.3127   87.7267   70.8177   65.8986
+
+  Columns 13 through 18
+
+   59.4542   79.2723   67.3632   78.6783  112.7948  122.8477
+
+  Columns 19 through 24
+
+   69.3632  122.8477   27.7574   47.5755   70.3632   62.5678
+
+  Columns 25 through 30
+
+   84.1914   13.1579   42.0119   52.9997   11.6363   55.5148
+
+  Columns 31 through 36
+
+   60.7951   70.3632   69.8873   73.7699   49.7270   68.8873
+
+  Columns 37 through 42
+
+  119.6496   53.3292   78.5310  110.9690   99.0903   74.1279
+
+  Columns 43 through 48
+
+   77.0798  119.6496   99.0903   54.3098   80.3631  106.5145
+
+  Columns 49 through 54
+
+   84.9540   47.3270   43.3876   55.1655   62.4340   86.1813
+
+  Columns 55 through 60
+
+   99.2039  116.9084  101.2175   86.0237   81.4647   74.8177
+
+  Columns 61 through 66
+
+   43.1210   74.2609   80.3631  104.3309   81.0563   14.5030
+
+  Columns 67 through 72
+
+   50.5452   47.3270   85.9540   85.7268   57.4542   89.8497
+
+  Columns 73 through 78
+
+   89.1813   52.5452   72.5208   48.0704   99.0903   27.0453
+
+  Columns 79 through 80
+
+   28.0105   97.0903
+
+
+V(:,:,2) =
+
+  Columns 1 through 6
+
+   76.2723   75.7001   35.9544   99.0903   70.8873   64.6948
+
+  Columns 7 through 12
+
+   42.6563   95.0903   94.1409   43.0907   34.4089   50.0704
+
+  Columns 13 through 18
+
+   67.3632   99.0903   59.4542   94.8721  115.7948  118.8477
+
+  Columns 19 through 24
+
+   99.0903  118.8477   50.5148   93.1510   54.5452   20.5908
+
+  Columns 25 through 30
+
+   61.4340   54.4207   17.5030   10.4444   70.0905   80.2723
+
+  Columns 31 through 36
+
+   38.8634   80.2723   27.8662   89.7124   75.2723   22.8662
+
+  Columns 37 through 42
+
+   80.7547   37.3975   10.8531   78.7268   99.0903   31.2512
+
+  Columns 43 through 48
+
+   49.9249   80.7547   99.0903   31.1549   47.1816   41.6058
+
+  Columns 49 through 54
+
+   48.9770  125.8174   67.5814   84.6091   85.1914   96.0903
+
+  Columns 55 through 60
+
+  106.2266   33.0725   94.5267   53.5148   58.3098   54.4542
+
+  Columns 61 through 66
+
+   71.8177   90.1926   47.1816   92.8978   78.0563   39.0119
+
+  Columns 67 through 72
+
+   42.6361  125.8174   34.4089   63.7951   16.8787   66.6948
+
+  Columns 73 through 78
+
+   81.2723   84.1813  105.0297   32.2423   99.0903   76.8177
+
+  Columns 79 through 80
+
+   62.6948   89.1813
+
+isnan(V(:))
+
+ans =
+
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+
+sum(isnan(V(:)))
+
+ans =
+
+     0
+
+sum(isinf(V(:)))
+
+ans =
+
+     0
+
+edit f_nllsoftmax.m
+pl1
+
+pl1 =
+
+  Columns 1 through 6
+
+   47.5148   69.7001   72.3859   53.4542   31.4436   83.8497
+
+  Columns 7 through 12
+
+   50.4845   89.0903   67.3127   82.7267   66.8177   58.8986
+
+  Columns 13 through 18
+
+   53.4542   71.2723   62.3632   70.6783  105.7948  112.8477
+
+  Columns 19 through 24
+
+   62.3632  112.8477   23.7574   41.5755   62.3632   54.5678
+
+  Columns 25 through 30
+
+   79.1914    5.1579   38.0119   48.9997    7.6363   47.5148
+
+  Columns 31 through 36
+
+   56.7951   62.3632   62.8873   63.7699   40.7270   62.8873
+
+  Columns 37 through 42
+
+  109.6496   47.3292   68.5310  100.9690   89.0903   68.1279
+
+  Columns 43 through 48
+
+   67.0798  109.6496   89.0903   50.3098   76.3631   96.5145
+
+  Columns 49 through 54
+
+   77.9540   46.3270   40.3876   47.1655   55.4340   80.1813
+
+  Columns 55 through 60
+
+   90.2039  106.9084   96.2175   76.0237   75.4647   66.8177
+
+  Columns 61 through 66
+
+   37.1210   66.2609   76.3631   94.3309   74.0563    9.5030
+
+  Columns 67 through 72
+
+   44.5452   46.3270   77.9540   75.7268   53.4542   83.8497
+
+  Columns 73 through 78
+
+   80.1813   44.5452   66.5208   42.0704   89.0903   20.0453
+
+  Columns 79 through 80
+
+   22.0105   89.0903
+
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+edit f_nllsoftmax_lapse.m
+v=[1 2 3; 10001 10002 10003; -10003 10002 10002];
+v
+
+v =
+
+           1           2           3
+       10001       10002       10003
+      -10003       10002       10002
+
+exp(v(:,1))
+
+ans =
+
+    2.7183
+       Inf
+         0
+
+exp(v(:,1))+exp(v(:,2))+exp(v(:,3))
+
+ans =
+
+   30.1929
+       Inf
+       Inf
+
+exp(v(:,1)) ./(exp(v(:,1))+exp(v(:,2))+exp(v(:,3)))
+
+ans =
+
+    0.0900
+       NaN
+         0
+
+v=[1 2 3; 10001 10002 10003; -10003 -10002 -10001]; 
+
+
+exp(v(:,1)) ./(exp(v(:,1))+exp(v(:,2))+exp(v(:,3)))
+
+ans =
+
+    0.0900
+       NaN
+       NaN
+
+v=[1 2 3; 10001 10002 10003; -103 -102 -101]; 
+
+
+exp(v(:,1)) ./(exp(v(:,1))+exp(v(:,2))+exp(v(:,3)))
+
+ans =
+
+    0.0900
+       NaN
+    0.0900
+
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.mathworks.widgets.desk.DTDocumentBar$DocumentButton.paintComponent(DTDocumentBar.java:1074)
+	at javax.swing.JComponent.paint(JComponent.java:1037)
+	at com.mathworks.mwswing.MJToggleButton.paint(MJToggleButton.java:356)
+	at javax.swing.JComponent.paintChildren(JComponent.java:870)
+	at javax.swing.JComponent.paint(JComponent.java:1046)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5106)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4890)
+	at javax.swing.RepaintManager$3.run(RepaintManager.java:814)
+	at javax.swing.RepaintManager$3.run(RepaintManager.java:802)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:802)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:745)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:725)
+	at javax.swing.RepaintManager.access$1000(RepaintManager.java:46)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1680)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:715)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:685)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+clear all
+
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 14:42 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [14:42] ##############
+Subject 1  (p01)
+V
+{Error using <a href="matlab:helpUtils.errorDocCallback('keyboard')" style="font-weight:bold">keyboard</a>
+Undefined function or variable 'V'.
+} 
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 14:43 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [14:43] ##############
+Subject 1  (p01)
+{Error using <a href="matlab:helpUtils.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Array dimensions must match for binary array op.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('f_nllsoftmax', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m', 39)" style="font-weight:bold">f_nllsoftmax</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m',39,0)">line 39</a>)
+checkb=exp(   repmat(beta, [1 nTrials 3]) .* V );
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)', '', 0)" style="font-weight:bold">@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)</a>
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 250)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',250,0)">line 250</a>)
+        f = feval(funfcn{3},x,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 157)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',157,0)">line 157</a>)
+                    [wi.par, wi.L, wi.exit, wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1} ws.data details.fixedpar
+                    col},0,0), wi.startpar, w.options);
+
+Caused by:
+    Failure in initial user-supplied objective function evaluation.
+    FMINUNC cannot continue.
+} 
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 14:45 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [14:45] ##############
+Subject 1  (p01)
+V
+
+V(:,:,1) =
+
+  Columns 1 through 6
+
+   59.3333   86.2353   91.2500   66.0000   45.2941  102.1176
+
+  Columns 7 through 12
+
+   64.6667  106.0000   84.5556   97.8571   79.0000   73.1111
+
+  Columns 13 through 18
+
+   66.0000   88.0000   75.0000   87.3333  125.7500  136.6667
+
+  Columns 19 through 24
+
+   77.0000  136.6667   30.6667   52.6667   78.0000   69.2500
+
+  Columns 25 through 30
+
+   93.8889   13.7895   46.6667   59.0000   12.5714   61.3333
+
+  Columns 31 through 36
+
+   67.7500   78.0000   77.5882   81.5789   54.7143   76.5882
+
+  Columns 37 through 42
+
+  133.0769   59.1250   86.9231  123.3333  110.0000   82.4706
+
+  Columns 43 through 48
+
+   85.2941  133.0769  110.0000   60.4706   89.7143  118.3333
+
+  Columns 49 through 54
+
+   94.5000   53.0000   48.3333   60.9412   69.2222   96.0000
+
+  Columns 55 through 60
+
+  110.2500  130.0000  113.0000   95.3333   90.7059   83.0000
+
+  Columns 61 through 66
+
+   47.6667   82.3750   89.7143  115.8824   90.1250   15.6667
+
+  Columns 67 through 72
+
+   56.0000   53.0000   95.5000   95.0000   64.0000  100.1176
+
+  Columns 73 through 78
+
+   99.0000   58.0000   80.6667   53.2222  110.0000   29.5000
+
+  Columns 79 through 80
+
+   30.7059  108.0000
+
+
+V(:,:,2) =
+
+  Columns 1 through 6
+
+   85.0000   84.2353   39.5000  110.0000   78.5882   71.8824
+
+  Columns 7 through 12
+
+   46.7778  106.0000  104.4444   47.1429   38.5000   55.2222
+
+  Columns 13 through 18
+
+   75.0000  110.0000   66.0000  106.0000  128.7500  132.6667
+
+  Columns 19 through 24
+
+  110.0000  132.6667   56.3333  103.3333   60.0000   22.5000
+
+  Columns 25 through 30
+
+   68.2222   60.1053   18.6667   11.1111   77.5714   89.0000
+
+  Columns 31 through 36
+
+   43.5000   89.0000   30.1765   99.4737   84.0000   25.1765
+
+  Columns 37 through 42
+
+   90.1538   40.8750   11.6923   88.0000  110.0000   34.5882
+
+  Columns 43 through 48
+
+   55.0588   90.1538  110.0000   34.2353   51.8571   46.3333
+
+  Columns 49 through 54
+
+   53.7500  140.0000   75.0000   94.2353   94.8889  107.0000
+
+  Columns 55 through 60
+
+  118.5000   37.0000  105.0000   59.3333   64.4706   61.0000
+
+  Columns 61 through 66
+
+   80.0000  100.6250   51.8571  103.2941   87.1250   43.6667
+
+  Columns 67 through 72
+
+   47.0000  140.0000   38.5000   70.7500   18.3333   73.8824
+
+  Columns 73 through 78
+
+   90.0000   94.0000  116.6667   35.3333  110.0000   85.0000
+
+  Columns 79 through 80
+
+   69.8824   99.0000
+
+max(V(:))
+
+ans =
+
+   140
+
+% Calculate p(Choice) using softmax rule
+%           p(Choice)=exp(beta*V(Choice))/(exp(beta*V(Option 1))+exp(beta*V(Option 2))+exp(beta*V(Option 3)));
+b2 = repmat(beta, [1 nTrials]);
+base=(exp(b2.*squeeze(V(:,:,1)))  +   exp(b2.*squeeze(V(:,:,2)))  ); % point in parameter space * trial * option
+Vchosen =  repmat( data(:, col.Choice)==1, [1 nParPoints])'.*V(:,:,1) + repmat( data(:, col.Choice)==2, [1 nParPoints])'.*V(:,:,2) ;
+pch=exp(b2.*Vchosen)./base;
+
+
+% Restore original value magnitudes 
+V=V+Vcorrection;
+{Error using <a href="matlab:helpUtils.errorDocCallback('keyboard')" style="font-weight:bold">keyboard</a>
+Undefined function or variable 'Vcorrection'.
+} 
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 14:48 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [14:48] ##############
+Subject 1  (p01)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot
+continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 157)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',157,0)">line 157</a>)
+                    [wi.par, wi.L, wi.exit, wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1} ws.data details.fixedpar
+                    col},0,0), wi.startpar, w.options);
+} 
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot
+continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+} 
+wi.startpar
+
+ans =
+
+   -0.4000    1.7000
+
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+V
+
+V(:,:,1) =
+
+  Columns 1 through 6
+
+   51.0952   74.1507   78.6997   56.7321   39.8424   87.5797
+
+  Columns 7 through 12
+
+   55.9136   90.5535   72.8848   83.5139   67.4151   62.8992
+
+  Columns 13 through 18
+
+   56.7321   75.6428   64.1874   75.0791  107.4072  117.1011
+
+  Columns 19 through 24
+
+   66.1874  117.1011   26.5476   45.4583   67.1874   59.7890
+
+  Columns 25 through 30
+
+   80.1586   12.8952   40.0761   50.5044   11.2474   53.0952
+
+  Columns 31 through 36
+
+   57.9028   67.1874   66.6848   70.5225   47.6530   65.6848
+
+  Columns 37 through 42
+
+  114.0658   50.9190   75.0411  105.8273   94.5535   70.6585
+
+  Columns 43 through 48
+
+   73.6638  114.0658   94.5535   51.7478   76.4744  101.5996
+
+  Columns 49 through 54
+
+   80.9843   44.9678   41.3309   52.7636   59.6111   82.0981
+
+  Columns 55 through 60
+
+   94.6104  111.4642   96.3178   82.1523   77.6218   71.4151
+
+  Columns 61 through 66
+
+   41.2306   70.8866   76.4744   99.5272   77.2851   14.0190
+
+  Columns 67 through 72
+
+   48.2767   44.9678   81.9843   81.8705   54.7321   85.5797
+
+  Columns 73 through 78
+
+   85.0981   50.2767   69.1333   45.9280   94.5535   26.0245
+
+  Columns 79 through 80
+
+   26.8897   92.5535
+
+
+V(:,:,2) =
+
+  Columns 1 through 6
+
+   72.6428   72.1507   34.4799   94.5535   67.6848   61.7058
+
+  Columns 7 through 12
+
+   40.9424   90.5535   89.8561   41.4056   32.7076   47.9280
+
+  Columns 13 through 18
+
+   64.1874   94.5535   56.7321   90.2445  110.4072  113.1011
+
+  Columns 19 through 24
+
+   94.5535  113.1011   48.0952   88.9166   52.2767   19.7969
+
+  Columns 25 through 30
+
+   58.6111   52.0568   17.0190   10.1672   66.9795   76.6428
+
+  Columns 31 through 36
+
+   36.9352   76.6428   26.9054   85.6531   71.6428   21.9054
+
+  Columns 37 through 42
+
+   76.8461   35.9514   10.5041   74.8705   94.5535   29.8634
+
+  Columns 43 through 48
+
+   47.7899   76.8461   94.5535   29.8739   45.2372   39.6398
+
+  Columns 49 through 54
+
+   46.9921  119.9195   64.4964   80.6060   81.1586   91.5535
+
+  Columns 55 through 60
+
+  101.1227   31.4393   90.1713   51.0952   55.7478   51.7321
+
+  Columns 61 through 66
+
+   68.4151   85.8543   45.2372   88.5745   74.2851   37.0761
+
+  Columns 67 through 72
+
+   40.8214  119.9195   32.7076   60.9028   16.2738   63.7058
+
+  Columns 73 through 78
+
+   77.6428   80.0981  100.1904   30.9568   94.5535   73.4151
+
+  Columns 79 through 80
+
+   59.7058   85.0981
+
+max(V)
+
+ans(:,:,1) =
+
+  117.1011
+
+
+ans(:,:,2) =
+
+  119.9195
+
+% Calculate p(Choice) using softmax rule
+%           p(Choice)=exp(beta*V(Choice))/(exp(beta*V(Option 1))+exp(beta*V(Option 2))+exp(beta*V(Option 3)));
+%           Values are shifted by max to avoid inf exp(V)
+b2 = repmat(beta, [1 nTrials]);
+base=(exp(b2.*squeeze(V(:,:,1)-max(V(:))))  +   exp(b2.*squeeze(V(:,:,2)-max(V(:))))  ); % point in parameter space * trial * option
+Vchosen =  repmat( data(:, col.Choice)==1, [1 nParPoints])'.*V(:,:,1) + repmat( data(:, col.Choice)==2, [1 nParPoints])'.*V(:,:,2) ;
+pch=exp(b2.*(Vchosen-max(V(:))))./base;
+pch
+
+pch =
+
+  Columns 1 through 6
+
+    1.0000    0.0000    1.0000    1.0000    0.0000    1.0000
+
+  Columns 7 through 12
+
+    1.0000    0.5000    1.0000    1.0000    0.0000    1.0000
+
+  Columns 13 through 18
+
+    1.0000    1.0000    0.0000    1.0000    1.0000    0.0000
+
+  Columns 19 through 24
+
+    1.0000    1.0000    1.0000    1.0000    0.0000    1.0000
+
+  Columns 25 through 30
+
+    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000
+
+  Columns 31 through 36
+
+    1.0000    0.0000    1.0000    0.0000    0.0000    1.0000
+
+  Columns 37 through 42
+
+    1.0000    1.0000    1.0000    1.0000    0.5000    1.0000
+
+  Columns 43 through 48
+
+    1.0000    1.0000    0.5000    1.0000    1.0000    1.0000
+
+  Columns 49 through 54
+
+    0.0000    1.0000    1.0000    1.0000    1.0000    1.0000
+
+  Columns 55 through 60
+
+         0    1.0000    0.0000    1.0000    1.0000    1.0000
+
+  Columns 61 through 66
+
+    1.0000    1.0000    1.0000    1.0000    1.0000         0
+
+  Columns 67 through 72
+
+    1.0000    1.0000    1.0000    1.0000    1.0000    1.0000
+
+  Columns 73 through 78
+
+    1.0000    1.0000    0.0000    1.0000    0.5000    1.0000
+
+  Columns 79 through 80
+
+    1.0000    0.0000
+
+nll=  - sum(log(pch),2);
+nll
+
+nll =
+
+   Inf
+
+openvar pch
+x
+
+x =
+
+   -0.4000    1.7000
+
+1.8*1.8*10
+
+ans =
+
+   32.4000
+
+1.8*19*10
+
+ans =
+
+   342
+
+1.8*19
+
+ans =
+
+   34.2000
+
+1.8*19*1.7
+
+ans =
+
+   58.1400
+
+1.8*1.7
+
+ans =
+
+    3.0600
+
+1.8*1.7*10
+
+ans =
+
+   30.6000
+
+wi
+
+wi = 
+
+    startpar: [-0.4000 1.7000]
+
+ato=inline('10./(1+exp(-x))')
+
+ato =
+
+     Inline function:
+     ato(x) = 10./(1+exp(-x))
+
+ato(17)
+
+ans =
+
+   10.0000
+
+wi
+
+wi = 
+
+    startpar: [-0.4000 1.7000]
+
+ato(1.7)
+
+ans =
+
+    8.4553
+
+ato(1.7)*19*10
+
+ans =
+
+   1.6065e+03
+
+ato(1.7)
+
+ans =
+
+    8.4553
+
+5*19*10
+
+ans =
+
+   950
+
+exp(  5*19*10   )
+
+ans =
+
+   Inf
+
+exp(  2*19*10   )
+
+ans =
+
+  1.0762e+165
+
+exp(  2*19*10   )
+
+ans =
+
+  1.0762e+165
+
+exp(  1*19*10   )
+
+ans =
+
+   3.2806e+82
+
+exp(  8*19*10   )
+
+ans =
+
+   Inf
+
+exp(  0.2*19*10   )
+
+ans =
+
+   3.1856e+16
+
+exp(  0.2*1.9*10   )
+
+ans =
+
+   44.7012
+
+exp(  8*1.9*10   )
+
+ans =
+
+   1.0298e+66
+
+exp(   8*0.19*10   )
+
+ans =
+
+   3.9928e+06
+
+parval*maxcfweight*maxscore
+{Undefined function or variable
+'parval'.
+} 
+parval= 2
+
+parval =
+
+     2
+
+maxcfweight=2; 
+maxscore=10; 
+exp(   parval*maxcfweight*maxscore)
+
+ans =
+
+   2.3539e+17
+
+parval= 2
+
+parval =
+
+     2
+
+maxcfweight=0.2; 
+maxscore=10; 
+exp(   parval*maxcfweight*maxscore)
+
+ans =
+
+   54.5982
+
+parval= 8
+
+parval =
+
+     8
+
+maxcfweight=0.2; 
+maxscore=10; 
+exp(   parval*maxcfweight*maxscore)
+
+ans =
+
+   8.8861e+06
+
+parval= -2:0.1:2;
+maxcfweight=0.2; 
+maxscore=10; 
+exp(   parval*maxcfweight*maxscore)
+
+ans =
+
+  Columns 1 through 3
+
+    0.0183    0.0224    0.0273
+
+  Columns 4 through 6
+
+    0.0334    0.0408    0.0498
+
+  Columns 7 through 9
+
+    0.0608    0.0743    0.0907
+
+  Columns 10 through 12
+
+    0.1108    0.1353    0.1653
+
+  Columns 13 through 15
+
+    0.2019    0.2466    0.3012
+
+  Columns 16 through 18
+
+    0.3679    0.4493    0.5488
+
+  Columns 19 through 21
+
+    0.6703    0.8187    1.0000
+
+  Columns 22 through 24
+
+    1.2214    1.4918    1.8221
+
+  Columns 25 through 27
+
+    2.2255    2.7183    3.3201
+
+  Columns 28 through 30
+
+    4.0552    4.9530    6.0496
+
+  Columns 31 through 33
+
+    7.3891    9.0250   11.0232
+
+  Columns 34 through 36
+
+   13.4637   16.4446   20.0855
+
+  Columns 37 through 39
+
+   24.5325   29.9641   36.5982
+
+  Columns 40 through 41
+
+   44.7012   54.5982
+
+parval= -2:0.1:2;
+maxcfweight=0.2; 
+maxscore=10; 
+exp(   parval*maxcfweight*maxscore)
+
+ans =
+
+  Columns 1 through 3
+
+    0.0183    0.0224    0.0273
+
+  Columns 4 through 6
+
+    0.0334    0.0408    0.0498
+
+  Columns 7 through 9
+
+    0.0608    0.0743    0.0907
+
+  Columns 10 through 12
+
+    0.1108    0.1353    0.1653
+
+  Columns 13 through 15
+
+    0.2019    0.2466    0.3012
+
+  Columns 16 through 18
+
+    0.3679    0.4493    0.5488
+
+  Columns 19 through 21
+
+    0.6703    0.8187    1.0000
+
+  Columns 22 through 24
+
+    1.2214    1.4918    1.8221
+
+  Columns 25 through 27
+
+    2.2255    2.7183    3.3201
+
+  Columns 28 through 30
+
+    4.0552    4.9530    6.0496
+
+  Columns 31 through 33
+
+    7.3891    9.0250   11.0232
+
+  Columns 34 through 36
+
+   13.4637   16.4446   20.0855
+
+  Columns 37 through 39
+
+   24.5325   29.9641   36.5982
+
+  Columns 40 through 41
+
+   44.7012   54.5982
+
+
+
+
+% % Linearly re-scale PL and PP scores to maintain (rough)
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 15:10 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b03_ac'
+    'bp03_ac'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b03_ac       [15:10] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - bp03_ac       [15:10] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+{Operation terminated by user during
+finitedifferences
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>bracketingPhase
+(line 138)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>lineSearch
+(line 65)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 205)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',205,0)">line 205</a>)
+    [alpha,f,grad,exitflagLnSrch,funcCountLnSrch,faultTolStruct]
+    = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT]
+   = fminusub(funfcn,x, ...
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 155)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',155,0)">line 155</a>)
+%                     [nll
+pch]=f_nllsoftmax(wi.startpar,
+{details.models{m,1} ws.data
+details.fixedpar col});
+} 
+clear all
+close all hidden
+pack
+clc
+details.dataset='All pilot data (11-Nov-2015)'; details.session=1;
+details.dataset
+
+ans =
+
+All pilot data (11-Nov-2015)
+
+strfind(details.dataset, ' _b')
+
+ans =
+
+     []
+
+strfind(details.dataset, ' b')
+
+ans =
+
+     []
+
+strfind(details.dataset, ' b')
+
+ans =
+
+     []
+
+strfind(details.dataset, 'pilot')
+
+ans =
+
+     5
+
+isempty(strfind(details.dataset, 'pilot'))
+
+ans =
+
+     0
+
+isempty(strfind(details.dataset, 'pilot'))
+
+ans =
+
+     0
+
+strfind(details.dataset, ' b')
+
+ans =
+
+     []
+
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 15:26 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:26] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 15:26 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+{Error using <a href="matlab:helpUtils.errorDocCallback('error')" style="font-weight:bold">error</a>
+Not enough input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 234)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',234,0)">line 234</a>)
+error
+} 
+num2str(details.session)
+
+ans =
+
+1
+
+isempty(strfind(details.dataset, 'pilot'))
+
+ans =
+
+     0
+
+details.dataset
+
+ans =
+
+All pilot data (11-Nov-2015)
+
+isempty(strfind(details.dataset, 'data b'))==0;
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+{Error using <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 50)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',50,0)">line 50</a>)
+You forgot to run the prep modelling
+script!
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 15:28 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:28] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 15:28 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+{Error using <a href="matlab:helpUtils.errorDocCallback('error')" style="font-weight:bold">error</a>
+Not enough input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 234)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',234,0)">line 234</a>)
+error
+} 
+isempty(strfind(details.dataset, 'pilot'))
+
+ans =
+
+     0
+
+details.dataset
+
+ans =
+
+All pilot data b3 (11-Nov-2015)
+
+isempty(strfind(details.dataset, 'pilot'))==0
+
+ans =
+
+     1
+
+isempty(strfind(details.dataset, 'data b'))==0
+
+ans =
+
+     1
+
+strfind(details.dataset, 'data b')
+
+ans =
+
+    11
+
+details.dataset(strfind(details.dataset, 'data b')+6)
+
+ans =
+
+3
+
+resfilename=[resfilename 'b'  details.dataset(strfind(details.dataset, 'data b')+6)]
+{Undefined function or variable
+'resfilename'.
+} 
+request
+{Undefined function or variable
+'request'.
+} 
+details
+
+details = 
+
+                 n_iter: 20
+                session: 1
+       specificsubjects: {}
+                dataset: [1x31 char]
+                modfams: [1x1 struct]
+            whichmodels: {'b01'}
+                 define: {}
+               subjects: {20x1 cell}
+                n_subjs: 20
+         model_defaults: {16x3 cell}
+    par_transformations: {4x4 cell}
+                 models: {1x6 cell}
+               n_models: 1
+               fixedpar: []
+           subj_ntrials: [20x1 double]
+         subj_ntrialsok: [20x1 double]
+
+details.session
+
+ans =
+
+     1
+
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 15:34 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:34] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 15:34 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 15:35 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:35] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 15:35 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 15:36 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:36] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 15:36 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 15:53 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:53] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 15:53 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 15:53 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:53] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 15:53 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 16:3 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [16:3] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [16:3] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - b03_ac       [16:4] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [16:5] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [16:6] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Failed: p08  -  bp02_l    iteration 14
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 6 - bp03_ac       [16:7] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 7 - h01_b_ChoosePL       [16:8] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 16:9 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 16:27 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      {Operation terminated by user during
+<a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 84)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',84,0)">line 84</a>)
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',47,1)">a1a_fitmod at 47</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:28 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [16:28] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+{Operation terminated by user during
+<a href="matlab:helpUtils.errorDocCallback('getNumericOrStringFieldValue', '/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/getNumericOrStringFieldValue.m', 0)" style="font-weight:bold">getNumericOrStringFieldValue</a>
+
+In <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 205)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',205,0)">line 205</a>)
+[typicalx,ME] =
+getNumericOrStringFieldValue('TypicalX','ones(numberOfVariables,1)',
+...
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 157)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',157,0)">line 157</a>)
+                    [wi.par, wi.L,
+                    wi.exit, wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1}
+                    ws.data
+                    details.fixedpar
+                    col},0,0),
+                    wi.startpar,
+                    w.options);
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:29 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [16:29] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [16:29] ##############
+Subject 1  (p01)
+Failed: p01  -  b02_l    iteration 2
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Failed: p14  -  b02_l    iteration 2
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - b03_ac       [16:30] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [16:30] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [16:31] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+{Operation terminated by user during
+finDiffEvalAndChkErr
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/finitedifferences.p>finitedifferences
+(line 128)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>bracketingPhase
+(line 138)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>lineSearch
+(line 65)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 205)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',205,0)">line 205</a>)
+    [alpha,f,grad,exitflagLnSrch,funcCountLnSrch,faultTolStruct]
+    = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT]
+   = fminusub(funfcn,x, ...
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 152)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',152,0)">line 152</a>)
+                    [wi.par, wi.L,
+                    wi.exit, wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax_lapse(x,
+                    {details.models{m,1}
+                    ws.data
+                    details.fixedpar
+                    col},0,0),
+                    wi.startpar,
+                    w.options);
+} 
+edit b02_l.m
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:32 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [16:33] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [16:33] ##############
+Subject 1  (p01)
+Failed: p01  -  b02_l    iteration 1
+Failed: p01  -  b02_l    iteration 4
+Failed: p01  -  b02_l    iteration 6
+Failed: p01  -  b02_l    iteration 7
+Failed: p01  -  b02_l    iteration 8
+Failed: p01  -  b02_l    iteration 10
+Failed: p01  -  b02_l    iteration 11
+Failed: p01  -  b02_l    iteration 13
+Failed: p01  -  b02_l    iteration 14
+Failed: p01  -  b02_l    iteration 18
+Subject 2  (p02)
+Failed: p02  -  b02_l    iteration 1
+Failed: p02  -  b02_l    iteration 4
+Failed: p02  -  b02_l    iteration 6
+Failed: p02  -  b02_l    iteration 7
+Failed: p02  -  b02_l    iteration 8
+Failed: p02  -  b02_l    iteration 10
+Failed: p02  -  b02_l    iteration 11
+Failed: p02  -  b02_l    iteration 13
+Failed: p02  -  b02_l    iteration 14
+Failed: p02  -  b02_l    iteration 18
+Subject 3  (p03)
+Failed: p03  -  b02_l    iteration 1
+Failed: p03  -  b02_l    iteration 4
+Failed: p03  -  b02_l    iteration 6
+Failed: p03  -  b02_l    iteration 7
+Failed: p03  -  b02_l    iteration 8
+Failed: p03  -  b02_l    iteration 10
+Failed: p03  -  b02_l    iteration 11
+Failed: p03  -  b02_l    iteration 13
+Failed: p03  -  b02_l    iteration 14
+Failed: p03  -  b02_l    iteration 18
+Subject 4  (p04)
+Failed: p04  -  b02_l    iteration 1
+Failed: p04  -  b02_l    iteration 4
+Failed: p04  -  b02_l    iteration 6
+Failed: p04  -  b02_l    iteration 7
+Failed: p04  -  b02_l    iteration 8
+Failed: p04  -  b02_l    iteration 10
+Failed: p04  -  b02_l    iteration 11
+Failed: p04  -  b02_l    iteration 13
+Failed: p04  -  b02_l    iteration 14
+Failed: p04  -  b02_l    iteration 18
+Subject 5  (p05)
+Failed: p05  -  b02_l    iteration 1
+Failed: p05  -  b02_l    iteration 4
+Failed: p05  -  b02_l    iteration 6
+Failed: p05  -  b02_l    iteration 7
+Failed: p05  -  b02_l    iteration 8
+Failed: p05  -  b02_l    iteration 10
+Failed: p05  -  b02_l    iteration 11
+Failed: p05  -  b02_l    iteration 13
+Failed: p05  -  b02_l    iteration 14
+Failed: p05  -  b02_l    iteration 18
+Subject 6  (p06)
+Failed: p06  -  b02_l    iteration 1
+Failed: p06  -  b02_l    iteration 4
+Failed: p06  -  b02_l    iteration 6
+Failed: p06  -  b02_l    iteration 7
+Failed: p06  -  b02_l    iteration 8
+Failed: p06  -  b02_l    iteration 10
+Failed: p06  -  b02_l    iteration 11
+Failed: p06  -  b02_l    iteration 13
+Failed: p06  -  b02_l    iteration 14
+Failed: p06  -  b02_l    iteration 18
+Subject 7  (p07)
+Failed: p07  -  b02_l    iteration 1
+Failed: p07  -  b02_l    iteration 4
+Failed: p07  -  b02_l    iteration 6
+Failed: p07  -  b02_l    iteration 7
+Failed: p07  -  b02_l    iteration 8
+Failed: p07  -  b02_l    iteration 10
+Failed: p07  -  b02_l    iteration 11
+Failed: p07  -  b02_l    iteration 13
+Failed: p07  -  b02_l    iteration 14
+Failed: p07  -  b02_l    iteration 18
+Subject 8  (p08)
+Failed: p08  -  b02_l    iteration 1
+Failed: p08  -  b02_l    iteration 4
+Failed: p08  -  b02_l    iteration 6
+Failed: p08  -  b02_l    iteration 7
+Failed: p08  -  b02_l    iteration 8
+Failed: p08  -  b02_l    iteration 10
+Failed: p08  -  b02_l    iteration 11
+Failed: p08  -  b02_l    iteration 13
+Failed: p08  -  b02_l    iteration 14
+Failed: p08  -  b02_l    iteration 18
+Subject 9  (p09)
+Failed: p09  -  b02_l    iteration 1
+Failed: p09  -  b02_l    iteration 4
+Failed: p09  -  b02_l    iteration 6
+Failed: p09  -  b02_l    iteration 7
+Failed: p09  -  b02_l    iteration 8
+Failed: p09  -  b02_l    iteration 10
+Failed: p09  -  b02_l    iteration 11
+Failed: p09  -  b02_l    iteration 13
+Failed: p09  -  b02_l    iteration 14
+Failed: p09  -  b02_l    iteration 18
+Subject 10  (p10)
+Failed: p10  -  b02_l    iteration 1
+Failed: p10  -  b02_l    iteration 4
+Failed: p10  -  b02_l    iteration 6
+Failed: p10  -  b02_l    iteration 7
+Failed: p10  -  b02_l    iteration 8
+Failed: p10  -  b02_l    iteration 10
+Failed: p10  -  b02_l    iteration 11
+Failed: p10  -  b02_l    iteration 13
+Failed: p10  -  b02_l    iteration 14
+Failed: p10  -  b02_l    iteration 18
+Subject 11  (p11)
+Failed: p11  -  b02_l    iteration 1
+Failed: p11  -  b02_l    iteration 4
+Failed: p11  -  b02_l    iteration 6
+Failed: p11  -  b02_l    iteration 7
+Failed: p11  -  b02_l    iteration 8
+Failed: p11  -  b02_l    iteration 10
+Failed: p11  -  b02_l    iteration 11
+Failed: p11  -  b02_l    iteration 13
+Failed: p11  -  b02_l    iteration 14
+Failed: p11  -  b02_l    iteration 18
+Subject 12  (p12)
+Failed: p12  -  b02_l    iteration 1
+Failed: p12  -  b02_l    iteration 4
+Failed: p12  -  b02_l    iteration 6
+Failed: p12  -  b02_l    iteration 7
+Failed: p12  -  b02_l    iteration 8
+Failed: p12  -  b02_l    iteration 10
+Failed: p12  -  b02_l    iteration 11
+Failed: p12  -  b02_l    iteration 13
+Failed: p12  -  b02_l    iteration 14
+Failed: p12  -  b02_l    iteration 18
+Subject 13  (p13)
+Failed: p13  -  b02_l    iteration 1
+Failed: p13  -  b02_l    iteration 4
+Failed: p13  -  b02_l    iteration 6
+Failed: p13  -  b02_l    iteration 7
+Failed: p13  -  b02_l    iteration 8
+Failed: p13  -  b02_l    iteration 10
+Failed: p13  -  b02_l    iteration 11
+Failed: p13  -  b02_l    iteration 13
+Failed: p13  -  b02_l    iteration 14
+Failed: p13  -  b02_l    iteration 18
+Subject 14  (p14)
+Failed: p14  -  b02_l    iteration 1
+Failed: p14  -  b02_l    iteration 4
+Failed: p14  -  b02_l    iteration 6
+Failed: p14  -  b02_l    iteration 7
+Failed: p14  -  b02_l    iteration 8
+Failed: p14  -  b02_l    iteration 10
+Failed: p14  -  b02_l    iteration 11
+Failed: p14  -  b02_l    iteration 13
+Failed: p14  -  b02_l    iteration 14
+Failed: p14  -  b02_l    iteration 18
+Subject 15  (p15)
+Failed: p15  -  b02_l    iteration 1
+Failed: p15  -  b02_l    iteration 4
+Failed: p15  -  b02_l    iteration 6
+Failed: p15  -  b02_l    iteration 7
+Failed: p15  -  b02_l    iteration 8
+Failed: p15  -  b02_l    iteration 10
+Failed: p15  -  b02_l    iteration 11
+Failed: p15  -  b02_l    iteration 13
+Failed: p15  -  b02_l    iteration 14
+Failed: p15  -  b02_l    iteration 18
+Subject 16  (p16)
+Failed: p16  -  b02_l    iteration 1
+Failed: p16  -  b02_l    iteration 4
+Failed: p16  -  b02_l    iteration 6
+Failed: p16  -  b02_l    iteration 7
+Failed: p16  -  b02_l    iteration 8
+Failed: p16  -  b02_l    iteration 10
+Failed: p16  -  b02_l    iteration 11
+Failed: p16  -  b02_l    iteration 13
+Failed: p16  -  b02_l    iteration 14
+Failed: p16  -  b02_l    iteration 18
+Subject 17  (p17)
+Failed: p17  -  b02_l    iteration 1
+Failed: p17  -  b02_l    iteration 4
+Failed: p17  -  b02_l    iteration 6
+Failed: p17  -  b02_l    iteration 7
+Failed: p17  -  b02_l    iteration 8
+Failed: p17  -  b02_l    iteration 10
+Failed: p17  -  b02_l    iteration 11
+Failed: p17  -  b02_l    iteration 13
+Failed: p17  -  b02_l    iteration 14
+Failed: p17  -  b02_l    iteration 18
+Subject 18  (p18)
+Failed: p18  -  b02_l    iteration 1
+Failed: p18  -  b02_l    iteration 4
+Failed: p18  -  b02_l    iteration 6
+Failed: p18  -  b02_l    iteration 7
+Failed: p18  -  b02_l    iteration 8
+Failed: p18  -  b02_l    iteration 10
+Failed: p18  -  b02_l    iteration 11
+Failed: p18  -  b02_l    iteration 13
+Failed: p18  -  b02_l    iteration 14
+Failed: p18  -  b02_l    iteration 18
+Subject 19  (p19)
+Failed: p19  -  b02_l    iteration 1
+Failed: p19  -  b02_l    iteration 4
+Failed: p19  -  b02_l    iteration 6
+Failed: p19  -  b02_l    iteration 7
+Failed: p19  -  b02_l    iteration 8
+Failed: p19  -  b02_l    iteration 10
+Failed: p19  -  b02_l    iteration 11
+Failed: p19  -  b02_l    iteration 13
+Failed: p19  -  b02_l    iteration 14
+Failed: p19  -  b02_l    iteration 18
+Subject 20  (p20)
+Failed: p20  -  b02_l    iteration 1
+Failed: p20  -  b02_l    iteration 4
+Failed: p20  -  b02_l    iteration 6
+Failed: p20  -  b02_l    iteration 7
+Failed: p20  -  b02_l    iteration 8
+Failed: p20  -  b02_l    iteration 10
+Failed: p20  -  b02_l    iteration 11
+Failed: p20  -  b02_l    iteration 13
+Failed: p20  -  b02_l    iteration 14
+Failed: p20  -  b02_l    iteration 18
+Model 3 - b03_ac       [16:33] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [16:34] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [16:35] ##############
+Subject 1  (p01)
+Failed: p01  -  bp02_l    iteration 3
+Failed: p01  -  bp02_l    iteration 4
+Failed: p01  -  bp02_l    iteration 5
+Failed: p01  -  bp02_l    iteration 6
+Failed: p01  -  bp02_l    iteration 7
+Failed: p01  -  bp02_l    iteration 10
+Failed: p01  -  bp02_l    iteration 13
+Failed: p01  -  bp02_l    iteration 14
+Failed: p01  -  bp02_l    iteration 15
+Failed: p01  -  bp02_l    iteration 17
+Subject 2  (p02)
+Failed: p02  -  bp02_l    iteration 3
+Failed: p02  -  bp02_l    iteration 4
+Failed: p02  -  bp02_l    iteration 5
+Failed: p02  -  bp02_l    iteration 6
+Failed: p02  -  bp02_l    iteration 7
+Failed: p02  -  bp02_l    iteration 10
+Failed: p02  -  bp02_l    iteration 13
+Failed: p02  -  bp02_l    iteration 14
+Failed: p02  -  bp02_l    iteration 15
+Failed: p02  -  bp02_l    iteration 17
+Subject 3  (p03)
+Failed: p03  -  bp02_l    iteration 3
+Failed: p03  -  bp02_l    iteration 4
+Failed: p03  -  bp02_l    iteration 5
+Failed: p03  -  bp02_l    iteration 6
+Failed: p03  -  bp02_l    iteration 7
+Failed: p03  -  bp02_l    iteration 10
+Failed: p03  -  bp02_l    iteration 13
+Failed: p03  -  bp02_l    iteration 14
+Failed: p03  -  bp02_l    iteration 15
+Failed: p03  -  bp02_l    iteration 17
+Subject 4  (p04)
+Failed: p04  -  bp02_l    iteration 3
+Failed: p04  -  bp02_l    iteration 4
+Failed: p04  -  bp02_l    iteration 5
+Failed: p04  -  bp02_l    iteration 6
+Failed: p04  -  bp02_l    iteration 7
+Failed: p04  -  bp02_l    iteration 10
+Failed: p04  -  bp02_l    iteration 13
+Failed: p04  -  bp02_l    iteration 14
+Failed: p04  -  bp02_l    iteration 15
+Failed: p04  -  bp02_l    iteration 17
+Subject 5  (p05)
+Failed: p05  -  bp02_l    iteration 3
+Failed: p05  -  bp02_l    iteration 4
+Failed: p05  -  bp02_l    iteration 5
+Failed: p05  -  bp02_l    iteration 6
+Failed: p05  -  bp02_l    iteration 7
+Failed: p05  -  bp02_l    iteration 10
+Failed: p05  -  bp02_l    iteration 13
+Failed: p05  -  bp02_l    iteration 14
+Failed: p05  -  bp02_l    iteration 15
+Failed: p05  -  bp02_l    iteration 17
+Subject 6  (p06)
+Failed: p06  -  bp02_l    iteration 3
+Failed: p06  -  bp02_l    iteration 4
+Failed: p06  -  bp02_l    iteration 5
+Failed: p06  -  bp02_l    iteration 6
+Failed: p06  -  bp02_l    iteration 7
+Failed: p06  -  bp02_l    iteration 10
+Failed: p06  -  bp02_l    iteration 13
+Failed: p06  -  bp02_l    iteration 14
+Failed: p06  -  bp02_l    iteration 15
+Failed: p06  -  bp02_l    iteration 17
+Subject 7  (p07)
+Failed: p07  -  bp02_l    iteration 3
+Failed: p07  -  bp02_l    iteration 4
+Failed: p07  -  bp02_l    iteration 5
+Failed: p07  -  bp02_l    iteration 6
+Failed: p07  -  bp02_l    iteration 7
+Failed: p07  -  bp02_l    iteration 10
+Failed: p07  -  bp02_l    iteration 13
+Failed: p07  -  bp02_l    iteration 14
+Failed: p07  -  bp02_l    iteration 15
+Failed: p07  -  bp02_l    iteration 17
+Subject 8  (p08)
+{Operation terminated by user during
+<a href="matlab:helpUtils.errorDocCallback('repmat', '/Applications/MATLAB_R2012a.app/toolbox/matlab/elmat/repmat.m', 50)" style="font-weight:bold">repmat</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/elmat/repmat.m',50,0)">line 50</a>)
+
+In <a href="matlab:helpUtils.errorDocCallback('b02_l', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b02_l.m', 18)" style="font-weight:bold">b02_l</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b02_l.m',18,0)">line 18</a>)
+pl1= repmat(pl1, nPP,1).*repmat(plw,
+1,nTrials);
+
+In <a href="matlab:helpUtils.errorDocCallback('f_nllsoftmax_lapse', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax_lapse.m', 38)" style="font-weight:bold">f_nllsoftmax_lapse</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax_lapse.m',38,0)">line 38</a>)
+eval(['V=' ValueFxn '(xx, {[] data,
+fPar,col});'])
+
+In
+<a href="matlab:helpUtils.errorDocCallback('@(x)f_nllsoftmax_lapse(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)', '', 0)" style="font-weight:bold">@(x)f_nllsoftmax_lapse(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)</a>
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/finDiffEvalAndChkErr.p>finDiffEvalAndChkErr
+(line 26)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/finitedifferences.p>finitedifferences
+(line 128)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>bracketingPhase
+(line 138)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>lineSearch
+(line 65)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 205)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',205,0)">line 205</a>)
+    [alpha,f,grad,exitflagLnSrch,funcCountLnSrch,faultTolStruct]
+    = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT]
+   = fminusub(funfcn,x, ...
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 152)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',152,0)">line 152</a>)
+                    [wi.par, wi.L,
+                    wi.exit, wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax_lapse(x,
+                    {details.models{m,1}
+                    ws.data
+                    details.fixedpar
+                    col},0,0),
+                    wi.startpar,
+                    w.options);
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:36 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b02_l'
+    'bp02_l'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:36] ##############
+Subject 1  (p01)
+Failed: p01  -  b02_l    iteration 1
+Failed: p01  -  b02_l    iteration 2
+Failed: p01  -  b02_l    iteration 3
+Failed: p01  -  b02_l    iteration 5
+Failed: p01  -  b02_l    iteration 6
+Failed: p01  -  b02_l    iteration 7
+Failed: p01  -  b02_l    iteration 11
+Failed: p01  -  b02_l    iteration 15
+Failed: p01  -  b02_l    iteration 17
+Failed: p01  -  b02_l    iteration 20
+Subject 2  (p02)
+Failed: p02  -  b02_l    iteration 1
+Failed: p02  -  b02_l    iteration 2
+Failed: p02  -  b02_l    iteration 3
+Failed: p02  -  b02_l    iteration 5
+Failed: p02  -  b02_l    iteration 6
+Failed: p02  -  b02_l    iteration 7
+Failed: p02  -  b02_l    iteration 11
+Failed: p02  -  b02_l    iteration 15
+Failed: p02  -  b02_l    iteration 17
+{Operation terminated by user during
+<a href="matlab:helpUtils.errorDocCallback('squeeze', '/Applications/MATLAB_R2012a.app/toolbox/matlab/elmat/squeeze.m', 0)" style="font-weight:bold">squeeze</a>
+
+In <a href="matlab:helpUtils.errorDocCallback('f_nllsoftmax', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m', 38)" style="font-weight:bold">f_nllsoftmax</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m',38,0)">line 38</a>)
+base=(exp(b2.*squeeze(V(:,:,1)-max(V(:))))
++   exp(b2.*squeeze(V(:,:,2)-max(V(:))))
+); % point in parameter space * trial *
+option
+
+In
+<a href="matlab:helpUtils.errorDocCallback('@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)', '', 0)" style="font-weight:bold">@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)</a>
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/finDiffEvalAndChkErr.p>finDiffEvalAndChkErr
+(line 26)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/finitedifferences.p>finitedifferences
+(line 128)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>bracketingPhase
+(line 138)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>lineSearch
+(line 65)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 205)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',205,0)">line 205</a>)
+    [alpha,f,grad,exitflagLnSrch,funcCountLnSrch,faultTolStruct]
+    = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT]
+   = fminusub(funfcn,x, ...
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 154)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',154,0)">line 154</a>)
+                    [wi.par, wi.L,
+                    wi.exit, wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1}
+                    ws.data
+                    details.fixedpar
+                    col},0,0),
+                    wi.startpar,
+                    w.options);
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:36 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+2 Models:
+    'b02_l'
+    'bp02_l'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:36] ##############
+Subject 1  (p01)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at
+initial point. Fminunc cannot continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT]
+   = fminusub(funfcn,x, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 154)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',154,0)">line 154</a>)
+                    [wi.par, wi.L,
+                    wi.exit, wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1}
+                    ws.data
+                    details.fixedpar
+                    col},0,0),
+                    wi.startpar,
+                    w.options);
+} 
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax_lapse(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+{Attempted to access x(:,2); index out of
+bounds because size(x)=[1,0].
+
+Error in <a href="matlab:helpUtils.errorDocCallback('b02_l', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b02_l.m', 10)" style="font-weight:bold">b02_l</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b02_l.m',10,0)">line 10</a>)
+plw= 10./(1+exp(-x(:,2)));
+
+Error in <a href="matlab:helpUtils.errorDocCallback('f_nllsoftmax_lapse', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax_lapse.m', 38)" style="font-weight:bold">f_nllsoftmax_lapse</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax_lapse.m',38,0)">line 38</a>)
+eval(['V=' ValueFxn '(xx, {[] data,
+fPar,col});'])
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('@(x)f_nllsoftmax_lapse(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)', '', 0)" style="font-weight:bold">@(x)f_nllsoftmax_lapse(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)</a>
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 250)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',250,0)">line 250</a>)
+        f =
+        feval(funfcn{3},x,varargin{:});
+
+Caused by:
+    Failure in initial user-supplied
+    objective function evaluation.
+    FMINUNC cannot continue.
+} 
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax_lapse(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options);
+plw= 10./(1+exp(-x(:,2)))
+{Index exceeds matrix dimensions.
+} 
+x
+
+x =
+
+   Empty matrix: 1-by-0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+details
+
+details = 
+
+                 n_iter: 20
+                session: 1
+       specificsubjects: {}
+                dataset: [1x28 char]
+                modfams: [1x1 struct]
+                allmods: {7x1 cell}
+            whichmodels: {2x1 cell}
+                 define: {}
+               subjects: {20x1 cell}
+                n_subjs: 20
+         model_defaults: {16x3 cell}
+    par_transformations: {4x4 cell}
+                 models: {2x6 cell}
+               n_models: 2
+               fixedpar: []
+           subj_ntrials: [20x1 double]
+         subj_ntrialsok: [20x1 double]
+
+details.models
+
+ans = 
+
+  Columns 1 through 3
+
+    'b02_l'     [2]    {1x2 cell}
+    'bp02_l'    [3]    {1x3 cell}
+
+  Columns 4 through 5
+
+    {1x2 cell}    {1x2 cell}
+    {1x3 cell}    {1x3 cell}
+
+  Column 6
+
+    {1x2 cell}
+    {1x3 cell}
+
+details.models{3}
+
+ans =
+
+     2
+
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:37 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:38] ##############
+Subject 1  (p01)
+if system_dependent('IsDebugMode')==1, dbquit; end
+details
+
+details = 
+
+                 n_iter: 20
+                session: 1
+       specificsubjects: {}
+                dataset: 'All pilot data (11-Nov-2015)'
+                modfams: [1x1 struct]
+                allmods: {7x1 cell}
+            whichmodels: {4x1 cell}
+                 define: {}
+               subjects: {20x1 cell}
+                n_subjs: 20
+         model_defaults: {16x3 cell}
+    par_transformations: {4x4 cell}
+                 models: {4x6 cell}
+               n_models: 4
+               fixedpar: []
+           subj_ntrials: [20x1 double]
+         subj_ntrialsok: [20x1 double]
+
+details.models
+
+ans = 
+
+  Columns 1 through 5
+
+    'b02_l'     [2]    {1x2 cell}    {1x2 cell}    {1x2 cell}
+    'b01'       [1]    {1x1 cell}    {1x1 cell}    {1x1 cell}
+    'bp02_l'    [3]    {1x3 cell}    {1x3 cell}    {1x3 cell}
+    'bp01'      [2]    {1x2 cell}    {1x2 cell}    {1x2 cell}
+
+  Column 6
+
+    {1x2 cell}
+    {1x1 cell}
+    {1x3 cell}
+    {1x2 cell}
+
+details.models{1,3}
+
+ans = 
+
+    'b'    'l'
+
+details.models{1,4}
+
+ans = 
+
+    '20./(1+exp(-x))'    '10./(1+exp(-x))'
+
+details.models{1,5}
+
+ans = 
+
+    '-log( (20./x) - 1)'    '-log( (10./x) - 1)'
+
+wi
+
+wi = 
+
+    startpar: [-0.6000 -3.0000 - 3.1000i]
+
+details.models{1,5}
+
+ans = 
+
+    '-log( (20./x) - 1)'    '-log( (10./x) - 1)'
+
+details.models{2,5}
+
+ans = 
+
+    '-log( (20./x) - 1)'
+
+details.models{3,5}
+
+ans = 
+
+    '-log( (20./x) - 1)'    [1x22 char]    '-log( (10./x) - 1)'
+
+details.models
+
+ans = 
+
+  Columns 1 through 5
+
+    'b02_l'     [2]    {1x2 cell}    {1x2 cell}    {1x2 cell}
+    'b01'       [1]    {1x1 cell}    {1x1 cell}    {1x1 cell}
+    'bp02_l'    [3]    {1x3 cell}    {1x3 cell}    {1x3 cell}
+    'bp01'      [2]    {1x2 cell}    {1x2 cell}    {1x2 cell}
+
+  Column 6
+
+    {1x2 cell}
+    {1x1 cell}
+    {1x3 cell}
+    {1x2 cell}
+
+details.models{1,5}
+
+ans = 
+
+    '-log( (20./x) - 1)'    '-log( (10./x) - 1)'
+
+clear
+load('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/2 Inputs/Something wrong w bp2/res_fit_s2 (11-Nov-2015).mat')
+details
+
+details = 
+
+                 n_iter: 20
+                session: 2
+       specificsubjects: {}
+                dataset: 'All data (11-Nov-2015)'
+                modfams: [1x1 struct]
+            whichmodels: {7x1 cell}
+                 define: {}
+               subjects: {20x1 cell}
+                n_subjs: 20
+         model_defaults: {16x3 cell}
+    par_transformations: {4x4 cell}
+                 models: {7x6 cell}
+               n_models: 7
+               fixedpar: []
+           subj_ntrials: [20x1 double]
+         subj_ntrialsok: [20x1 double]
+
+details.models
+
+ans = 
+
+  Columns 1 through 5
+
+    'b01'               [1]    {1x1 cell}    {1x1 cell}    {1x1 cell}
+    'b02_l'             [2]    {1x2 cell}    {1x2 cell}    {1x2 cell}
+    'b03_ac'            [2]    {1x2 cell}    {1x2 cell}    {1x2 cell}
+    'bp01'              [2]    {1x2 cell}    {1x2 cell}    {1x2 cell}
+    'bp02_l'            [3]    {1x3 cell}    {1x3 cell}    {1x3 cell}
+    'bp03_ac'           [3]    {1x3 cell}    {1x3 cell}    {1x3 cell}
+    'h01_b_ChoosePL'    [1]    {1x1 cell}    {1x1 cell}    {1x1 cell}
+
+  Column 6
+
+    {1x1 cell}
+    {1x2 cell}
+    {1x2 cell}
+    {1x2 cell}
+    {1x3 cell}
+    {1x3 cell}
+    {1x1 cell}
+
+m=1
+
+m =
+
+     1
+
+details.models{m,1}
+
+ans =
+
+b01
+
+details.models{m,1}
+
+ans =
+
+b01
+
+details.models{m,2}
+
+ans =
+
+     1
+
+details.models{m,3}
+
+ans = 
+
+    'b'
+
+details.models{m,4}
+
+ans = 
+
+    '20./(1+exp(-x))'
+
+details.models{m,4}
+
+ans = 
+
+    '20./(1+exp(-x))'
+
+[details.models{m,4} '           '  details.models{m,5}]
+
+ans = 
+
+    '20./(1+exp(-x))'    '           '    '-log( (20./x) - 1)'
+
+[details.models{m,1} ':  ' details.models{m,4} '           '  details.models{m,5}]
+
+ans = 
+
+  Columns 1 through 4
+
+    'b01'    ':  '    '20./(1+exp(-x))'    '           '
+
+  Column 5
+
+    '-log( (20./x) - 1)'
+
+[details.models{m,1} ':  ' details.models{m,4} '           '  details.models{m,5}]
+
+ans = 
+
+  Columns 1 through 4
+
+    'b01'    ':  '    '20./(1+exp(-x))'    '           '
+
+  Column 5
+
+    '-log( (20./x) - 1)'
+
+char([details.models{m,1} ':  ' details.models{m,4} '           '  details.models{m,5}])
+
+ans =
+
+b01               
+:                 
+20./(1+exp(-x))   
+                  
+-log( (20./x) - 1)
+
+[details.models{m,1} ':  ']
+
+ans =
+
+b01:  
+
+details.models{m,4}
+
+ans = 
+
+    '20./(1+exp(-x))'
+
+details.models{m,4}
+
+ans = 
+
+    '20./(1+exp(-x))'
+
+openvar details.models 
+for m=1:size(details.models,1)
+    disp([details.models{m,1} ' ****  '])
+    
+    for p=1:size(details.models{m,4},1)
+    
+    disp(['        '  details.models{m,4}{p} '           '  details.models{m,5}{p}])
+    end
+    
+    
+end
+b01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+b02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+b03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+bp01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+bp02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+bp03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+h01_b_ChoosePL ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+size(details.models{m,4},1)
+
+ans =
+
+     1
+
+for m=1:size(details.models,1)
+    disp([details.models{m,1} ' ****  '])
+    
+    for p=1:size(details.models{m,5},1)
+    
+    disp(['        '  details.models{m,4}{p} '           '  details.models{m,5}{p}])
+    end
+    
+    
+end
+b01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+b02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+b03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+bp01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+bp02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+bp03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+h01_b_ChoosePL ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+for m=1:size(details.models,1)
+    disp([details.models{m,1} ' ****  '])
+    
+    for p=1:size(details.models{m,5},2  )
+    
+        disp(['        '  details.models{m,4}{p} '           '  details.models{m,5}{p}])
+    end
+    
+    
+end
+b01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+b02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        x           x
+b03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        4/(1+exp(-x))-2           -log((4./(x+2))-1)
+bp01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+bp02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+        x           x
+bp03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+        4/(1+exp(-x))-2           -log((4./(x+2))-1)
+h01_b_ChoosePL ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+clc
+for m=1:size(details.models,1)
+    disp([details.models{m,1} ' ****  '])
+    
+    for p=1:size(details.models{m,5},2  )
+    
+        disp(['        '  details.models{m,4}{p} '           '  details.models{m,5}{p}])
+    end
+    
+    
+end
+b01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+b02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        x           x
+b03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        4/(1+exp(-x))-2           -log((4./(x+2))-1)
+bp01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+bp02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+        x           x
+bp03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+        4/(1+exp(-x))-2           -log((4./(x+2))-1)
+h01_b_ChoosePL ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+load('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/2 Inputs/Something wrong w bp2/res_fit_pilot (11-Nov-2015).mat')
+clc
+for m=1:size(details.models,1)
+    disp([details.models{m,1} ' ****  '])
+    
+    for p=1:size(details.models{m,5},2  )
+    
+        disp(['        '  details.models{m,4}{p} '           '  details.models{m,5}{p}])
+    end
+    
+    
+end
+b01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+b02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        x           x
+b03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        4/(1+exp(-x))-2           -log((4./(x+2))-1)
+bp01 ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+bp02_l ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+        x           x
+bp03_ac ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+        4/(1+exp(-x))-2           -log((4./(x+2))-1)
+h01_b_ChoosePL ****  
+        20./(1+exp(-x))           -log( (20./x) - 1)
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:51 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+{Error using <a href="matlab:helpUtils.errorDocCallback('error')" style="font-weight:bold">error</a>
+Not enough input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 91)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',91,0)">line 91</a>)
+error
+} 
+clc
+for m=1:size(details.models,1)
+    disp([details.models{m,1} ' ****  '])
+    
+    for p=2:size(details.models{m,5},2  )
+    
+        disp(['        '  details.models{m,4}{p} '           '  details.models{m,5}{p}])
+    end
+    disp(' ')
+    
+end
+b02_l ****  
+        10./(1+exp(-x))           -log( (10./x) - 1)
+ 
+b01 ****  
+ 
+bp02_l ****  
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+        10./(1+exp(-x))           -log( (10./x) - 1)
+ 
+bp01 ****  
+        1./(2+2.*exp(-x))           -log(  1./(2.*x)  -1 )
+ 
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:52 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:52] ##############
+Subject 1  (p01)
+plw= 10./(1+exp(-x(:,2)));
+plw
+
+plw =
+
+    1.5447
+
+x
+
+x =
+
+   -2.7000   -1.7000
+
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:53 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:53] ##############
+Subject 1  (p01)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 154)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',154,0)">line 154</a>)
+                    [wi.par, wi.L, wi.exit, wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data
+                    details.fixedpar col},0,0), wi.startpar, w.options);
+} 
+wi.startpar
+
+ans =
+
+  -0.9000            -0.9000 - 3.1000i
+
+x
+
+x =
+
+   -6.8421
+
+p
+
+p =
+
+     2
+
+ff=inline('-log( (10./x) - 1')
+
+ff =
+
+     Inline function:
+     ff(x) = -log( (10./x) - 1
+
+ff(x)
+{Error using <a href="matlab:helpUtils.errorDocCallback('inlineeval', '/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/inlineeval.m', 15)" style="font-weight:bold">inlineeval</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/inlineeval.m',15,0)">line 15</a>)
+Error in inline expression ==> -log( (10./x) - 1
+ Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('inline/subsref', '/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/@inline/subsref.m', 24)" style="font-weight:bold">inline/subsref</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/@inline/subsref.m',24,0)">line 24</a>)
+    INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr, INLINE_OBJ_.expr);
+} 
+x
+
+x =
+
+   -6.8421
+
+ff(-6.8421)
+{Error using <a href="matlab:helpUtils.errorDocCallback('inlineeval', '/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/inlineeval.m', 15)" style="font-weight:bold">inlineeval</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/inlineeval.m',15,0)">line 15</a>)
+Error in inline expression ==> -log( (10./x) - 1
+ Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('inline/subsref', '/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/@inline/subsref.m', 24)" style="font-weight:bold">inline/subsref</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/@inline/subsref.m',24,0)">line 24</a>)
+    INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr, INLINE_OBJ_.expr);
+} 
+ff=inline('-log( (10./x)-1')
+
+ff =
+
+     Inline function:
+     ff(x) = -log( (10./x)-1
+
+ff(-6.8421)
+{Error using <a href="matlab:helpUtils.errorDocCallback('inlineeval', '/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/inlineeval.m', 15)" style="font-weight:bold">inlineeval</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/inlineeval.m',15,0)">line 15</a>)
+Error in inline expression ==> -log( (10./x)-1
+ Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('inline/subsref', '/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/@inline/subsref.m', 24)" style="font-weight:bold">inline/subsref</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/funfun/@inline/subsref.m',24,0)">line 24</a>)
+    INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr, INLINE_OBJ_.expr);
+} 
+-log( (10./x)-1
+ -log( (10./x)-1
+               |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+ff=inline('-log( (10./x)-1)')
+
+ff =
+
+     Inline function:
+     ff(x) = -log( (10./x)-1)
+
+ff(-6.8421)
+
+ans =
+
+  -0.9008 - 3.1416i
+
+ff(0)
+
+ans =
+
+  -Inf
+
+ff(-1)
+
+ans =
+
+  -2.3979 - 3.1416i
+
+ff(1)
+
+ans =
+
+   -2.1972
+
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:57 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:57] ##############
+Subject 1  (p01)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 167)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',167,0)">line 167</a>)
+                    [wi.par, wi.L, wi.exit, wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data
+                    details.fixedpar col},0,0), wi.startpar, w.options);
+} 
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:57 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:57] ##############
+Subject 1  (p01)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 167)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',167,0)">line 167</a>)
+                    [wi.par, wi.L, wi.exit, wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data
+                    details.fixedpar col},0,0), wi.startpar, w.options);
+} 
+[wi.par, wi.L, wi.exit, wi.output, wi.grad, wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data details.fixedpar col},0,0), wi.startpar, w.options)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at initial point. Fminunc cannot continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+} 
+wi.startpar
+
+ans =
+
+   -0.6000       Inf
+
+ff=inline('-log( (10./x)-1)')
+
+ff =
+
+     Inline function:
+     ff(x) = -log( (10./x)-1)
+
+        ff(10)
+
+ans =
+
+   Inf
+
+ff=inline('-log( (20./x)-1)')
+
+ff =
+
+     Inline function:
+     ff(x) = -log( (20./x)-1)
+
+        ff(10)
+
+ans =
+
+     0
+
+ff(11)
+
+ans =
+
+    0.2007
+
+ff(3)
+
+ans =
+
+   -1.7346
+
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:59 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:59] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('shiftdim', '/Applications/MATLAB_R2012a.app/toolbox/matlab/elmat/shiftdim.m', 42)" style="font-weight:bold">shiftdim</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/elmat/shiftdim.m',42,0)">line 42</a>)
+
+In <a href="matlab:helpUtils.errorDocCallback('b02_l', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b02_l.m', 13)" style="font-weight:bold">b02_l</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/1 Value functions/b02_l.m',13,0)">line 13</a>)
+pl1= shiftdim(data(:, col.PL(1)),1);  pp1=shiftdim(data(:, col.PP(1)),1) ; pl2=
+shiftdim(data(:, col.PL(2)),1); pp2=   shiftdim(data(:, col.PP(2)),1);
+
+In <a href="matlab:helpUtils.errorDocCallback('f_nllsoftmax', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m', 32)" style="font-weight:bold">f_nllsoftmax</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/f_nllsoftmax.m',32,0)">line 32</a>)
+eval(['V=' ValueFxn '(x, {[] data, fPar,col});'])
+
+In <a href="matlab:helpUtils.errorDocCallback('@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)', '', 0)" style="font-weight:bold">@(x)f_nllsoftmax(x,{details.models{m,1},ws.data,details.fixedpar,col},0,0)</a>
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/finDiffEvalAndChkErr.p>finDiffEvalAndChkErr
+(line 26)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/shared/optimlib/finitedifferences.p>finitedifferences
+(line 128)
+
+
+In /Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>bracketingPhase
+(line 138)
+
+
+In /Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>lineSearch (line
+65)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 205)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',205,0)">line 205</a>)
+    [alpha,f,grad,exitflagLnSrch,funcCountLnSrch,faultTolStruct] = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 162)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',162,0)">line 162</a>)
+                    [wi.par, wi.L, wi.exit, wi.output, wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x, {details.models{m,1} ws.data
+                    details.fixedpar col},0,0), wi.startpar, w.options);
+} 
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 16:59 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+4 Models:
+    'b02_l'
+    'b01'
+    'bp02_l'
+    'bp01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b02_l       [16:59] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b01       [17:0] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - bp02_l       [17:0] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [17:2] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 17:3 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 17:3 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [17:3] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [17:3] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - b03_ac       [17:4] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [17:5] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [17:6] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 6 - bp03_ac       [17:7] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 7 - h01_b_ChoosePL       [17:9] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 17:9 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 18:16 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [18:16] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [18:16] ##############
+Subject 1  (p01)
+Failed: p01  -  b02_l    iteration 9
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - b03_ac       [18:17] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [18:17] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [18:18] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 6 - bp03_ac       [18:19] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 7 - h01_b_ChoosePL       [18:20] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 18:20 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 18:34 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [18:34] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [18:34] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Failed: p14  -  b02_l    iteration 7
+Subject 15  (p15)
+Failed: p15  -  b02_l    iteration 7
+Subject 16  (p16)
+Failed: p16  -  b02_l    iteration 7
+Subject 17  (p17)
+Subject 18  (p18)
+Failed: p18  -  b02_l    iteration 7
+Subject 19  (p19)
+Subject 20  (p20)
+Failed: p20  -  b02_l    iteration 7
+Model 3 - b03_ac       [18:35] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [18:36] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [18:36] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 6 - bp03_ac       [18:38] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 7 - h01_b_ChoosePL       [18:39] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 11-Nov-2015 18:39 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================

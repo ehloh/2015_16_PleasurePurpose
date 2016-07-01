@@ -1,0 +1,253 @@
+=======================================================
+START Timestamp: 18-Nov-2015 13:51 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+5 Models:
+    'b01'
+    'b02_l'
+    'bc01'
+    'bc02_l'
+    'h01_b_choPL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    0.45
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      {Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 85)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',85,0)">line
+85</a>)
+} 
+a1a_fitmod
+=======================================================
+START Timestamp: 18-Nov-2015 13:51 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+9 Models:
+    'b01'
+    'b02_l'
+    'bc01'
+    'bc02_l'
+    'bp01'
+    'bp02_l'
+    'bpc01'
+    'bpc02_l'
+    'h01_b_choPL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    0.45
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [13:51] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [13:51] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 3 - bc01       [13:52] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 4 - bc02_l       [13:52] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 5 - bp01       [13:53] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 6 - bp02_l       [13:54] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 7 - bpc01       [13:55] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 8 - bpc02_l       [13:56] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 9 - h01_b_choPL       [13:58] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 18-Nov-2015 13:58 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================

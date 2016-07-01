@@ -1,0 +1,1507 @@
+=======================================================
+START Timestamp: 11-Nov-2015 11:57 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.5     to    1
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Subjects all, turn on trycatch, turn on save!!!{Operation terminated by user during
+<a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 85)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',85,0)">line 85</a>)
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 11:57 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.5     to    1
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [11:57] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [11:58] ##############
+Subject 1  (p01_YH)
+{Operation terminated by user during
+finitedifferences
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>sectioningPhase
+(line 302)
+
+
+In
+/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/lineSearch.p>lineSearch
+(line 73)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 205)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',205,0)">line 205</a>)
+    [alpha,f,grad,exitflagLnSrch,funcCountLnSrch,faultTolStruct]
+    = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] =
+   fminusub(funfcn,x, ...
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 151)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',151,0)">line 151</a>)
+                    [wi.par, wi.L,
+                    wi.exit, wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1}
+                    ws.data
+                    details.fixedpar
+                    col},0,0),
+                    wi.startpar,
+                    w.options);
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 11:58 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [11:58] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [11:58] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 3 - b03_ac       [11:59] ##############
+Subject 1  (p01_YH)
+Failed: p01_YH  -  b03_ac    iteration 10
+Subject 2  (p02_MI)
+Failed: p02_MI  -  b03_ac    iteration 10
+Subject 3  (p03_AY)
+Failed: p03_AY  -  b03_ac    iteration 9
+Failed: p03_AY  -  b03_ac    iteration 10
+Failed: p03_AY  -  b03_ac    iteration 12
+Subject 4  (p04_AW)
+Failed: p04_AW  -  b03_ac    iteration 10
+Subject 5  (p05_CA)
+Failed: p05_CA  -  b03_ac    iteration 10
+Subject 6  (p06_BT)
+Failed: p06_BT  -  b03_ac    iteration 10
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Failed: p08_KC  -  b03_ac    iteration 9
+Failed: p08_KC  -  b03_ac    iteration 10
+Failed: p08_KC  -  b03_ac    iteration 12
+Subject 9  (p09_KJ)
+Failed: p09_KJ  -  b03_ac    iteration 10
+Failed: p09_KJ  -  b03_ac    iteration 12
+Subject 10  (p10_YC)
+Failed: p10_YC  -  b03_ac    iteration 10
+Failed: p10_YC  -  b03_ac    iteration 12
+Subject 11  (p11_BI)
+Failed: p11_BI  -  b03_ac    iteration 10
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Failed: p14_SK  -  b03_ac    iteration 10
+Subject 15  (p15_MM)
+Failed: p15_MM  -  b03_ac    iteration 10
+Failed: p15_MM  -  b03_ac    iteration 12
+Subject 16  (p16_SH)
+Failed: p16_SH  -  b03_ac    iteration 10
+Failed: p16_SH  -  b03_ac    iteration 12
+Subject 17  (p17_BB)
+Failed: p17_BB  -  b03_ac    iteration 10
+Failed: p17_BB  -  b03_ac    iteration 12
+Subject 18  (p18_WB)
+Failed: p18_WB  -  b03_ac    iteration 10
+Subject 19  (p19_HB)
+Failed: p19_HB  -  b03_ac    iteration 9
+Failed: p19_HB  -  b03_ac    iteration 10
+Failed: p19_HB  -  b03_ac    iteration 12
+Failed: p19_HB  -  b03_ac    iteration 19
+Subject 20  (p20_LZ)
+Model 4 - bp01       [12:0] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 5 - bp02_l       [12:1] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 6 - bp03_ac       [12:2] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Failed: p03_AY  -  bp03_ac    iteration 4
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Failed: p08_KC  -  bp03_ac    iteration 4
+Failed: p08_KC  -  bp03_ac    iteration 5
+Failed: p08_KC  -  bp03_ac    iteration 19
+Subject 9  (p09_KJ)
+Failed: p09_KJ  -  bp03_ac    iteration 4
+Subject 10  (p10_YC)
+Failed: p10_YC  -  bp03_ac    iteration 4
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Failed: p15_MM  -  bp03_ac    iteration 4
+Subject 16  (p16_SH)
+Failed: p16_SH  -  bp03_ac    iteration 4
+Subject 17  (p17_BB)
+Failed: p17_BB  -  bp03_ac    iteration 4
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Failed: p19_HB  -  bp03_ac    iteration 4
+Failed: p19_HB  -  bp03_ac    iteration 5
+Failed: p19_HB  -  bp03_ac    iteration 19
+Subject 20  (p20_LZ)
+Model 7 - h01_b_ChoosePL       [12:4] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 12:4 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 12:56 hrs
+ 
+No. of subjects: 20
+Requested: 20 subjects, 10 steps per param
+Choice session:  
+ 
+1 Models:
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      0.0001     to    10
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - h01_b_ChoosePL  ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 1 - h01_b_ChoosePL  ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 12:56 hrs
+INSTRUCTION: Results variables (prefix r):r_grid, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1b_gridsearch_models', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1b_gridsearch_models.m', 222)" style="font-weight:bold">a1b_gridsearch_models</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1b_gridsearch_models.m',222,0)">line
+222</a>)
+B=(r_res{m1,3}-r_res{m2,3})*-0.5;
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+{Error using <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 51)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',51,0)">line 51</a>)
+You forgot to run the prep modelling
+script!
+} 
+a0_prep4modelling
+=======================================================
+START Timestamp: 11-Nov-2015 12:59 hrs
+ 
+No. of subjects: 20
+ 
+ 
+Hit Enter to start      
+=======================================================
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+{Undefined variable "request" or
+function "request.dataset".
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 53)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',53,0)">line 53</a>)
+    if isempty(strfind(request.dataset,
+    'pilot'))==1 &
+    isempty(strfind(request.dataset,
+    'Pilot'))==1
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+{Reference to non-existent field
+'specificsubjects'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 59)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',59,0)">line 59</a>)
+        [logg.subjects logg.n_subjs
+        logg.datalog] =
+        f_selectsubjects([[{'Subject'};
+        logg.subjects]  [{'All'};
+        num2cell(ones(20,1))] ],
+        logg.specificsubjects,[[{'Subject'};
+        logg.subjects]  [{'All'}; n} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',44,1)">a1a_fitmod at 44</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 15:54 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:54] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 15:54 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 15:55 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      errorlog
+
+ans = 
+
+     {}
+
+=======================================================
+Model 1 - b01       [15:55] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 15:55 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 15:56 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+1 Models:
+    'b01'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:56] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 15:56 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 15:57 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      -10     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [15:57] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [15:57] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 3 - b03_ac       [15:58] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 4 - bp01       [15:59] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 5 - bp02_l       [16:0] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 6 - bp03_ac       [16:1] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 7 - h01_b_ChoosePL       [16:2] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 16:2 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 17:9 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [17:9] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [17:9] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+{Error using <a href="matlab:helpUtils.errorDocCallback('fminusub', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m', 17)" style="font-weight:bold">fminusub</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/private/fminusub.m',17,0)">line 17</a>)
+Objective function is undefined at
+initial point. Fminunc cannot
+continue.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 403)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',403,0)">line 403</a>)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT]
+   = fminusub(funfcn,x, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 157)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',157,0)">line 157</a>)
+                    [wi.par, wi.L,
+                    wi.exit,
+                    wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1}
+                    ws.data
+                    details.fixedpar
+                    col},0,0),
+                    wi.startpar,
+                    w.options);
+} 
+wi.startpar
+
+ans =
+
+   -0.4000   -0.1000
+
+a1a_fitmod
+{Error: <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',118,1)">File: a1a_fitmod.m Line: 118
+Column: 1</a>
+At least one END is missing: the
+statement may begin here.
+} 
+a1a_fitmod
+{Warning: Duplicate directory name:
+/Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',43,1)">a1a_fitmod at 43</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 17:10 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [17:10] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [17:10] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 3 - b03_ac       [17:11] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 4 - bp01       [17:12] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 5 - bp02_l       [17:13] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Failed: p03_AY  -  bp02_l    iteration 10
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Failed: p10_YC  -  bp02_l    iteration 10
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Failed: p13_MS  -  bp02_l    iteration 10
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Failed: p18_WB  -  bp02_l    iteration 10
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 6 - bp03_ac       [17:14] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 7 - h01_b_ChoosePL       [17:16] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 17:16 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 17:23 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [17:23] ##############
+Subject 1  ()
+Subject 2  ()
+Subject 3  ()
+Subject 4  ()
+Subject 5  ()
+Subject 6  ()
+Subject 7  ()
+Subject 8  ()
+Subject 9  ()
+Subject 10  ()
+Subject 11  ()
+Subject 12  ()
+Subject 13  ()
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('fminunc', '/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m', 140)" style="font-weight:bold">fminunc</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/optim/optim/fminunc.m',140,0)">line 140</a>)
+
+In <a href="matlab:helpUtils.errorDocCallback('a1a_fitmod', '/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m', 159)" style="font-weight:bold">a1a_fitmod</a> (<a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',159,0)">line 159</a>)
+                    [wi.par, wi.L, wi.exit, wi.output,
+                    wi.grad,
+                    wi.hessians]=fminunc(@(x)f_nllsoftmax(x,
+                    {details.models{m,1} ws.data
+                    details.fixedpar col},0,0),
+                    wi.startpar, w.options);
+} 
+a1a_fitmod
+{Warning: Duplicate directory name: /Users/EleanorL/matlab.} 
+{> In <a href="matlab: opentoline('/Applications/MATLAB_R2012a.app/toolbox/matlab/general/path.m',34,1)">path at 34</a>
+  In <a href="matlab: opentoline('/Users/EleanorL/Dropbox/SCRIPPS/7 Pleasure purpose/4b Modelling/a1a_fitmod.m',45,1)">a1a_fitmod at 45</a>} 
+=======================================================
+START Timestamp: 11-Nov-2015 17:24 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [17:24] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [17:24] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 3 - b03_ac       [17:25] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 4 - bp01       [17:26] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 5 - bp02_l       [17:27] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 6 - bp03_ac       [17:28] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 7 - h01_b_ChoosePL       [17:30] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 17:30 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 11-Nov-2015 17:31 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [17:31] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 2 - b02_l       [17:31] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 3 - b03_ac       [17:32] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 4 - bp01       [17:32] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 5 - bp02_l       [17:33] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 6 - bp03_ac       [17:34] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+Model 7 - h01_b_ChoosePL       [17:35] ##############
+Subject 1  (p01_YH)
+Subject 2  (p02_MI)
+Subject 3  (p03_AY)
+Subject 4  (p04_AW)
+Subject 5  (p05_CA)
+Subject 6  (p06_BT)
+Subject 7  (p07_HC)
+Subject 8  (p08_KC)
+Subject 9  (p09_KJ)
+Subject 10  (p10_YC)
+Subject 11  (p11_BI)
+Subject 12  (p12_AL)
+Subject 13  (p13_MS)
+Subject 14  (p14_SK)
+Subject 15  (p15_MM)
+Subject 16  (p16_SH)
+Subject 17  (p17_BB)
+Subject 18  (p18_WB)
+Subject 19  (p19_HB)
+Subject 20  (p20_LZ)
+====================================
+END Timestamp: 11-Nov-2015 17:35 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================

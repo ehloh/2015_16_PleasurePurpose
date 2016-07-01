@@ -1,0 +1,364 @@
+=======================================================
+START Timestamp: 12-Nov-2015 11:37 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [11:37] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [11:37] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - b03_ac       [11:38] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [11:38] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [11:39] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 6 - bp03_ac       [11:41] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 7 - h01_b_ChoosePL       [11:42] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 12-Nov-2015 11:42 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
+=======================================================
+START Timestamp: 12-Nov-2015 12:36 hrs
+ 
+No. of subjects: 20
+ 
+Requested: 20 subjects, 20 iterations per model
+Choice session:  
+ 
+7 Models:
+    'b01'
+    'b02_l'
+    'b03_ac'
+    'bp01'
+    'bp02_l'
+    'bp03_ac'
+    'h01_b_ChoosePL'
+
+ 
+Paramater ranges:
+      b:      0.01     to    8
+      p:      0.001     to    0.45
+      l:      0.001     to    10
+      a:      -2     to    2
+ 
+ 
+Hit Enter to start      
+=======================================================
+Model 1 - b01       [12:36] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 2 - b02_l       [12:36] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 3 - b03_ac       [12:37] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 4 - bp01       [12:38] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 5 - bp02_l       [12:38] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 6 - bp03_ac       [12:39] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+Model 7 - h01_b_ChoosePL       [12:40] ##############
+Subject 1  (p01)
+Subject 2  (p02)
+Subject 3  (p03)
+Subject 4  (p04)
+Subject 5  (p05)
+Subject 6  (p06)
+Subject 7  (p07)
+Subject 8  (p08)
+Subject 9  (p09)
+Subject 10  (p10)
+Subject 11  (p11)
+Subject 12  (p12)
+Subject 13  (p13)
+Subject 14  (p14)
+Subject 15  (p15)
+Subject 16  (p16)
+Subject 17  (p17)
+Subject 18  (p18)
+Subject 19  (p19)
+Subject 20  (p20)
+====================================
+END Timestamp: 12-Nov-2015 12:41 hrs
+INSTRUCTION: Results variables (prefix r):r_iterations, r_res, r_models
+                     [r_res: Col 1= Model, Col 2=Subject fits, 3=Model BIC, Col 4=N valid subjects, Col 6 onwards=Mean parameter values]
+ 
+Check command-window log for poor fits; See 'further instructions' at end of script for Bayes factor & model weights
+ 
+====================================
