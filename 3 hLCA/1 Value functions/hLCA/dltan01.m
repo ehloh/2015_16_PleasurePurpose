@@ -61,7 +61,7 @@ for sm= 1: fp.nsamples
 
             % We good? 
             if any(tr_oev(tb, :) >  x.threshold); break; 
-            elseif tb==ntb,  disp('Reached end of evidence collection without a decision! Now what?'); keyboard 
+%             elseif tb==ntb,  disp('Reached end of evidence collection without a decision! Now what?'); keyboard 
     %                 ans = tr_oev
     %                 tr_oev(tb-1,:)
             end   
@@ -91,18 +91,12 @@ end
 nLL = - sum(log( pcho(  d(:, col.ch)) ));  
  
 % cl=clock;  disp(['     exiting model (' num2str(cl(4)) ':'  num2str(cl(5)) ')'])
-
-
+ 
 
 % % Model-predicted choice assessed wrt binomial distribution (e.g. Tsetsos 2012 Frontiers)
 % k= sum(beh(:,1)==d(:, col.ch));   
 % p=  mean(beh(:,1)==d(:, col.ch) );
-% nLL =  -log( (p^k)*(  (1-p)^(ntr-k) )  );    
-
-% WHERE DID I STOP? 
-% 
-% - Deal with non-decision time crashouts 
-% - How to evaluate model performance? 2 DVs at a time  
+% nLL =  -log( (p^k)*(  (1-p)^(ntr-k) )  );     
 
 end
 
