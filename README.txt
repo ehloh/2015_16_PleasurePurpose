@@ -1,0 +1,3 @@
+This project aimed to look at how people process expected pleasure and purpose in decision making. Specifically, we aimed to examine how these signals were integrated in the brain, and how the brain handled situations where pleasure and purpose came into conflict. 
+
+We modelled the data using linear models and a hierarchical leaky accumulator. Data was archived after behavioural analysis because feature correlation severely impacted statistical power for the key neural question we sought to answer. Although we are not pursuing this further, there are other interesting (both behavioural and neural) questions that can be answered using this data set (see report 'Summary of Issues'). 
